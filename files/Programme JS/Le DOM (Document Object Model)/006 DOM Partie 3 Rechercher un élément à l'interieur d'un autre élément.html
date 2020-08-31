@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Javascript, manipulons le DOM -LLP, by the way, f*ck you</title>
+</head>
+
+<body>
+    <h2>Le dom c'est cool</h2>
+
+    <div id="section1" style="background-color:crimson;color:goldenrod;font-weight:bold;">
+        <p>Section 1 : Ceci est mon premier paragraphe.</p>
+        <p>Section 1 : Ceci est mon deuxième paragraphe.</p>
+        <p>Section 1 : et là nous avons le 3&egrave;me paragraphe.</p>
+    </div>
+
+    <div id="section2" style="background-color: silver;color:darkcyan;font-weight:bold;">
+        <p>Section 2 : Ceci est mon premier paragraphe</p>
+        <p>Section 2 : Ceci est mon deuxième paragraphe</p>
+        <p>Section 2 : et là nous avons le 3&egrave;me paragraphe</p>
+    </div>
+
+    <p id="demo">Le code est affiché ici</p>
+
+    <p id="balise1">...</p>
+
+    <p id="log">Le Log de la console</p>
+    <p>Log1 = <span id="log1">Log1</span></p>
+
+    <script>
+        document.getElementById("demo").innerHTML = "Mon premier code Javascript";
+
+        var x = document.getElementById("section2");
+        var y = x.getElementsByTagName("p");
+        document.getElementById("balise1").innerHTML = y[1].innerHTML;
+
+        document.getElementById("log1").innerHTML = console.log(y.length);
+        alert("merci de bien vouloir regarder dans la console pour voir log1");
+        //logprem
+    </script>
+</body>
+
+</html>

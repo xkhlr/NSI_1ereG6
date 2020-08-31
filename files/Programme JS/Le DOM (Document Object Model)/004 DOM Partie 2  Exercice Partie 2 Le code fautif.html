@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Javascript, manipulons le DOM -LLP, by the way, f*ck you</title>
+    </head>
+
+    <body>
+        <h2>Le dom c'est cool</h2>
+
+        <p>Ceci est mon premier paragraphe</p>
+        <p>Ceci est mon deuxième paragraphe</p>
+        <p>et là nous avons le 3ème paragraphe</p>
+
+        <p id="demo">Le code est affiché ici</p>
+        
+        <p id="balise1">...</p>
+
+        <script>
+            document.getElementById("demo").innerHTML="Mon premier code javascript";
+            var x=document.getElementsByTagName("p");
+            for (i=0;i<=3;i++){
+                console.log(x[i].innerHTML)
+                document.getElementById('balise1').innerHTML=x[i].innerHTML;
+            }            
+        </script>
+    </body>
+</html>

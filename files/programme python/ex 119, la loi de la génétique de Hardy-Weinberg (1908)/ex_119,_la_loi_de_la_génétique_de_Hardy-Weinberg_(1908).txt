@@ -1,0 +1,1162 @@
+.__________________________________________________________.
+|                                                          ||           Début du log du 18/5/2020                       |
+|           Chemin d'accès:C:\Users\Henry PC\Dropbox\Henry et Papa\Matières\NSI\1ère G6\programme python\ex 119, la loi de la génétique de Hardy-Weinberg (1908)                        |
+|__________________________________________________________|
+=========== donées de départ ======================
+nbtours=0,P0=0.25
+Q0=0.5
+R0=0.25
+P=0.5
+Q=0.5
+R=0.25
+G=0=========== fin des donées de départ ======================
+=========== donées saisies par l'utilisateur ======================
+CG=3
+P=1/4
+Q=1/2
+R=1/4
+=========== fin des donées saisies par l'utilisateur ======================
+.__________________________________________________________.
+|                                                          ||           Début du log du 18/5/2020                       |
+|           Chemin d'accès:C:\Users\Henry PC\Dropbox\Henry et Papa\Matières\NSI\1ère G6\programme python\ex 119, la loi de la génétique de Hardy-Weinberg (1908)                        |
+|__________________________________________________________|
+=========== donées de départ ======================
+nbtours=0,P0=0.25
+Q0=0.5
+R0=0.25
+P=0.5
+Q=0.5
+R=0.25
+G=0=========== fin des donées de départ ======================
+.______________________________________________________________________________________________________________________________________________________________________________.
+|                                                          |
+|           Début du log du 18/5/2020                       |
+|           Chemin d'accès:C:\Users\Henry PC\Dropbox\Henry et Papa\Matières\NSI\1ère G6\programme python\ex 119, la loi de la génétique de Hardy-Weinberg (1908)                        |
+|______________________________________________________________________________________________________________________________________________________________________________|
+=========== donées de départ ======================
+nbtours=0,P0=0.25
+Q0=0.5
+R0=0.25
+P=0.5
+Q=0.5
+R=0.25
+G=0=========== fin des donées de départ ======================
+=========== donées saisies par l'utilisateur ======================
+CG=3
+P=1/4
+Q=1/2
+R=1/4
+=========== fin des donées saisies par l'utilisateur ======================
+=========== donées finale, après avoir été traité par le programme de vérification ======================
+CG=3
+P=0.25
+Q=0.5
+R=0.25
+=========== fin donées finale, après avoir été traité par le programme de vérification ======================
+.______________________________________________________________________________________________________________________________________________________________________________.
+|                                                          |
+|           Début du log du 18/5/2020                       |
+|           Chemin d'accès:C:\Users\Henry PC\Dropbox\Henry et Papa\Matières\NSI\1ère G6\programme python\ex 119, la loi de la génétique de Hardy-Weinberg (1908)                        |
+|______________________________________________________________________________________________________________________________________________________________________________|
+=========== donées de départ ======================
+nbtours=0,P0=0.25
+Q0=0.5
+R0=0.25
+P=0.5
+Q=0.5
+R=0.25
+G=0=========== fin des donées de départ ======================
+=========== donées saisies par l'utilisateur ======================
+CG=3
+P=1/4
+Q=1/2
+R=1/4
+=========== fin des donées saisies par l'utilisateur ======================
+=========== donées finale, après avoir été traité par le programme de vérification ======================
+CG=3
+P=0.25
+Q=0.5
+R=0.25
+=========== fin donées finale, après avoir été traité par le programme de vérification ======================
+.____________________________________________________________________________________________________________________________________________________________.
+|                                                          |
+|           Début du log du 18/5/2020                       |
+|           Chemin d'accès:C:\Users\Henry PC\Dropbox\Henry et Papa\Matières\NSI\1ère G6\programme python\ex 119, la loi de la génétique de Hardy-Weinberg (1908)                        |
+|____________________________________________________________________________________________________________________________________________________________|
+=========== donées de départ ======================
+nbtours=0,P0=0.25
+Q0=0.5
+R0=0.25
+P=0.5
+Q=0.5
+R=0.25
+G=0=========== fin des donées de départ ======================
+########### Début du log du 18/5/2020 ######################
+ »»»»»»»»»»»»»»»»»»»»»» Chemin d'accès:C:\Users\Henry PC\Dropbox\Henry et Papa\Matières\NSI\1ère G6\programme python\ex 119, la loi de la génétique de Hardy-Weinberg (1908) ««««««««««««««««««««««|
+=========== donées de départ ======================
+nbtours=0,P0=0.25
+Q0=0.5
+R0=0.25
+P=0.5
+Q=0.5
+R=0.25
+G=0=========== fin des donées de départ ======================
+########### Début du log du 18/5/2020 ######################
+ »»»»»»»»»»»»»»»»»»»»»» Chemin d'accès:C:\Users\Henry PC\Dropbox\Henry et Papa\Matières\NSI\1ère G6\programme python\ex 119, la loi de la génétique de Hardy-Weinberg (1908) ««««««««««««««««««««««|
+=========== donées de départ ======================
+nbtours=0,P0=0.25
+Q0=0.5
+R0=0.25
+P=0.5
+Q=0.5
+R=0.25
+G=0=========== fin des donées de départ ======================
+########### Début du log du 18/5/2020 ######################
+ »»»»»»»»»»»»»»»»»»»»»» Chemin d'accès:C:\Users\Henry PC\Dropbox\Henry et Papa\Matières\NSI\1ère G6\programme python\ex 119, la loi de la génétique de Hardy-Weinberg (1908) ««««««««««««««««««««««
+>>>>>>>>>>>>>>>>>>>>>> donées de départ <<<<<<<<<<<<<<<<<<<<<<
+nbtours=0,P0=0.25
+Q0=0.5
+R0=0.25
+P=0.5
+Q=0.5
+R=0.25
+G=0>>>>>>>>>>>>>>>>>>>>>> fin des donées de départ <<<<<<<<<<<<<<<<<<<<<<
+########### Début du log du 18/5/2020 ######################
+»»»»»»»»»»»»»»»»»»»»»» Chemin d'accès:C:\Users\Henry PC\Dropbox\Henry et Papa\Matières\NSI\1ère G6\programme python\ex 119, la loi de la génétique de Hardy-Weinberg (1908) ««««««««««««««««««««««
+>>>>>>>>>>>>>>>>>>>>>> donées de départ <<<<<<<<<<<<<<<<<<<<<<
+nbtours=0,P0=0.25
+Q0=0.5
+R0=0.25
+P=0.5
+Q=0.5
+R=0.25
+G=0
+>>>>>>>>>>>>>>>>>>>>>> fin des donées de départ <<<<<<<<<<<<<<<<<<<<<<
+########### Début du log du 18/5/2020 ######################
+»»»»»»»»»»»»»»»»»»»»»» Chemin d'accès:C:\Users\Henry PC\Dropbox\Henry et Papa\Matières\NSI\1ère G6\programme python\ex 119, la loi de la génétique de Hardy-Weinberg (1908) ««««««««««««««««««««««
+>>>>>>>>>>>>>>>>>>>>>> donées de départ <<<<<<<<<<<<<<<<<<<<<<
+nbtours=0,P0=0.25
+Q0=0.5
+R0=0.25
+P=0.5
+Q=0.5
+R=0.25
+G=0
+>>>>>>>>>>>>>>>>>>>>>> fin des donées de départ <<<<<<<<<<<<<<<<<<<<<<
+########### Début du log du 18/5/2020 ######################
+»»»»»»»»»»»»»»»»»»»»»» Chemin d'accès:C:\Users\Henry PC\Dropbox\Henry et Papa\Matières\NSI\1ère G6\programme python\ex 119, la loi de la génétique de Hardy-Weinberg (1908) ««««««««««««««««««««««
+>>>>>>>>>>>>>>>>>>>>>>>>> donées de départ <<<<<<<<<<<<<<<<<<<<<<
+nbtours=0,P0=0.25
+Q0=0.5
+R0=0.25
+P=0.5
+Q=0.5
+R=0.25
+G=0
+>>>>>>>>>>>>>>>>>>>>>> fin des donées de départ <<<<<<<<<<<<<<<<<<<<<<
+########### Début du log du 18/5/2020 ######################
+»»»»»»»»»»»»»»»»»»»»»» Chemin d'accès:C:\Users\Henry PC\Dropbox\Henry et Papa\Matières\NSI\1ère G6\programme python\ex 119, la loi de la génétique de Hardy-Weinberg (1908) ««««««««««««««««««««««
+>>>>>>>>>>>>>>>>>>>>>>>>> donées de départ <<<<<<<<<<<<<<<<<<<<<<
+nbtours=0,P0=0.25
+Q0=0.5
+R0=0.25
+P=0.5
+Q=0.5
+R=0.25
+G=0
+>>>>>>>>>>>>>>>>>>>>>> fin des donées de départ <<<<<<<<<<<<<<<<<<<<<<
+########### Début du log du 18/5/2020 ######################
+»»»»»»»»»»»»»»»»»»»»»» Chemin d'accès:C:\Users\Henry PC\Dropbox\Henry et Papa\Matières\NSI\1ère G6\programme python\ex 119, la loi de la génétique de Hardy-Weinberg (1908) ««««««««««««««««««««««
+>>>>>>>>>>>>>>>>>>>>>>>>> donées de départ <<<<<<<<<<<<<<<<<<<<<<<<<<<
+nbtours=0,P0=0.25
+Q0=0.5
+R0=0.25
+P=0.5
+Q=0.5
+R=0.25
+G=0
+>>>>>>>>>>>>>>>>>>>>>> fin des donées de départ <<<<<<<<<<<<<<<<<<<<<<
+########### Début du log du 18/5/2020 ######################
+»»»»»»»»»»»»»»»»»»»»»» Chemin d'accès:C:\Users\Henry PC\Dropbox\Henry et Papa\Matières\NSI\1ère G6\programme python\ex 119, la loi de la génétique de Hardy-Weinberg (1908) ««««««««««««««««««««««
+>>>>>>>>>>>>>>>>>>>>>>>>> donées de départ <<<<<<<<<<<<<<<<<<<<<<<<<<<
+nbtours=0,P0=0.25
+Q0=0.5
+R0=0.25
+P=0.5
+Q=0.5
+R=0.25
+G=0
+>>>>>>>>>>>>>>>>>>>>>> fin des donées de départ <<<<<<<<<<<<<<<<<<<<<<
+########### Début du log du 18/5/2020 ######################
+»»»»»»»»»»»»»»»»»»»»»» Chemin d'accès:C:\Users\Henry PC\Dropbox\Henry et Papa\Matières\NSI\1ère G6\programme python\ex 119, la loi de la génétique de Hardy-Weinberg (1908) ««««««««««««««««««««««
+>>>>>>>>>>>>>>>>>>>>>>>>> donées de départ <<<<<<<<<<<<<<<<<<<<<<<<<<<
+nbtours=0
+P0=0.25
+Q0=0.5
+R0=0.25
+P=0.5
+Q=0.5
+R=0.25
+G=0
+>>>>>>>>>>>>>>>>>>>>>> fin des donées de départ <<<<<<<<<<<<<<<<<<<<<<
+=========== donées saisies par l'utilisateur ======================
+CG=3
+P=1/4
+Q=1/2
+R=1/4
+=========== fin des donées saisies par l'utilisateur ======================
+=========== donées finale, après avoir été traité par le programme de vérification ======================
+CG=3
+P=0.25
+Q=0.5
+R=0.25
+=========== fin donées finale, après avoir été traité par le programme de vérification ======================
+=========== données du tour n°0 ======================
+P0=0.25
+Q0=0.5
+R0=0.25
+P0=(0.25+(0.5/2))**2=
+R0.25=(0+(0.25/2))**2=
+Q0.5=1-(0.25+0)=0.25
+########### Début du log du 18/5/2020 ######################
+»»»»»»»»»»»»»»»»»»»»»» Chemin d'accès:C:\Users\Henry PC\Dropbox\Henry et Papa\Matières\NSI\1ère G6\programme python\ex 119, la loi de la génétique de Hardy-Weinberg (1908) ««««««««««««««««««««««
+>>>>>>>>>>>>>>>>>>>>>>>>> donées de départ <<<<<<<<<<<<<<<<<<<<<<<<<<<
+nbtours=0
+P0=0.25
+Q0=0.5
+R0=0.25
+P=0.5
+Q=0.5
+R=0.25
+G=0
+>>>>>>>>>>>>>>>>>>>>>> fin des donées de départ <<<<<<<<<<<<<<<<<<<<<<
+=========== donées saisies par l'utilisateur ======================
+CG=3
+P=1/4
+Q=1/2
+R=1/4
+=========== fin des donées saisies par l'utilisateur ======================
+=========== donées finale, après avoir été traité par le programme de vérification ======================
+CG=3
+P=0.25
+Q=0.5
+R=0.25
+=========== fin donées finale, après avoir été traité par le programme de vérification ======================
+=========== données du tour n°0 ======================
+P0=0.25
+Q0=0.5
+R0=0.25
+P0=(0.25+(0.5/2))**2=
+R0.25=(0+(0.25/2))**2=
+Q0.5=1-(0.25+0)=0.25
+P0=0.25
+Q0=0.5
+R0=0.25
+=========== fin donées du tour n°0 ======================
+Créé par Henry Letellier © © ®=========== données du tour n°1 ======================
+P1=0.25
+Q1=0.5
+R1=0.25
+P1=(0.25+(0.5/2))**2=
+R0.25=(1+(0.25/2))**2=
+Q0.5=1-(0.25+1)=0.25
+P1=0.25
+Q1=0.5
+R1=0.25
+=========== fin donées du tour n°1 ======================
+Créé par Henry Letellier © © ®=========== données du tour n°2 ======================
+P2=0.25
+Q2=0.5
+R2=0.25
+P2=(0.25+(0.5/2))**2=
+R0.25=(2+(0.25/2))**2=
+Q0.5=1-(0.25+2)=0.25
+P2=0.25
+Q2=0.5
+R2=0.25
+=========== fin donées du tour n°2 ======================
+Créé par Henry Letellier © © ®########### Début du log du 18/5/2020 ######################
+»»»»»»»»»»»»»»»»»»»»»» Chemin d'accès:C:\Users\Henry PC\Dropbox\Henry et Papa\Matières\NSI\1ère G6\programme python\ex 119, la loi de la génétique de Hardy-Weinberg (1908) ««««««««««««««««««««««
+>>>>>>>>>>>>>>>>>>>>>>>>> donées de départ <<<<<<<<<<<<<<<<<<<<<<<<<<<
+nbtours=0
+P0=0.25
+Q0=0.5
+R0=0.25
+P=0.5
+Q=0.5
+R=0.25
+G=0
+>>>>>>>>>>>>>>>>>>>>>> fin des donées de départ <<<<<<<<<<<<<<<<<<<<<<
+=========== donées saisies par l'utilisateur ======================
+CG=3
+P=1/2
+Q=1/2
+R=1/4
+=========== fin des donées saisies par l'utilisateur ======================
+=========== donées finale, après avoir été traité par le programme de vérification ======================
+CG=3
+P=0.25
+Q=0.5
+R=0.25
+=========== fin donées finale, après avoir été traité par le programme de vérification ======================
+=========== données du tour n°0 ======================
+P0=0.25
+Q0=0.5
+R0=0.25
+P1=(0.25+(0.5/2))**2=
+R0.25=(1+(0.25/2))**2=
+Q0.5=1-(0.25+1)=0.25
+P1=0.25
+Q1=0.5
+R1=0.25
+=========== fin donées du tour n°1 ======================
+Créé par Henry Letellier © © ®=========== données du tour n°1 ======================
+P1=0.25
+Q1=0.5
+R1=0.25
+P2=(0.25+(0.5/2))**2=
+R0.25=(2+(0.25/2))**2=
+Q0.5=1-(0.25+2)=0.25
+P2=0.25
+Q2=0.5
+R2=0.25
+=========== fin donées du tour n°2 ======================
+Créé par Henry Letellier © © ®=========== données du tour n°2 ======================
+P2=0.25
+Q2=0.5
+R2=0.25
+P3=(0.25+(0.5/2))**2=
+R0.25=(3+(0.25/2))**2=
+Q0.5=1-(0.25+3)=0.25
+P3=0.25
+Q3=0.5
+R3=0.25
+=========== fin donées du tour n°3 ======================
+Créé par Henry Letellier © © ®########### Début du log du 18/5/2020 ######################
+»»»»»»»»»»»»»»»»»»»»»» Chemin d'accès:C:\Users\Henry PC\Dropbox\Henry et Papa\Matières\NSI\1ère G6\programme python\ex 119, la loi de la génétique de Hardy-Weinberg (1908) ««««««««««««««««««««««
+>>>>>>>>>>>>>>>>>>>>>>>>> donées de départ <<<<<<<<<<<<<<<<<<<<<<<<<<<
+nbtours=0
+P0=0.25
+Q0=0.5
+R0=0.25
+P=0.5
+Q=0.5
+R=0.25
+G=0
+>>>>>>>>>>>>>>>>>>>>>> fin des donées de départ <<<<<<<<<<<<<<<<<<<<<<
+=========== donées saisies par l'utilisateur ======================
+CG=3
+P=1/4
+Q=1/2
+R=1/4
+=========== fin des donées saisies par l'utilisateur ======================
+=========== donées finale, après avoir été traité par le programme de vérification ======================
+CG=3
+P=0.25
+Q=0.5
+R=0.25
+=========== fin donées finale, après avoir été traité par le programme de vérification ======================
+=========== données du tour n°0 ======================
+P0=0.25
+Q0=0.5
+R0=0.25
+P1=(0.25+(0.5/2))**2=
+R0.25=(1+(0.25/2))**2=
+Q0.5=1-(0.5+1)=0.25
+P1=0.25
+Q1=0.5
+R1=0.25
+=========== fin donées du tour n°1 ======================
+Créé par Henry Letellier © © ®
+=========== données du tour n°1 ======================
+P1=0.25
+Q1=0.5
+R1=0.25
+P2=(0.25+(0.5/2))**2=
+R0.25=(2+(0.25/2))**2=
+Q0.5=1-(0.5+2)=0.25
+P2=0.25
+Q2=0.5
+R2=0.25
+=========== fin donées du tour n°2 ======================
+Créé par Henry Letellier © © ®
+=========== données du tour n°2 ======================
+P2=0.25
+Q2=0.5
+R2=0.25
+P3=(0.25+(0.5/2))**2=
+R0.25=(3+(0.25/2))**2=
+Q0.5=1-(0.5+3)=0.25
+P3=0.25
+Q3=0.5
+R3=0.25
+=========== fin donées du tour n°3 ======================
+Créé par Henry Letellier © © ®
+########### Début du log du 18/5/2020 ######################
+»»»»»»»»»»»»»»»»»»»»»» Chemin d'accès:C:\Users\Henry PC\Dropbox\Henry et Papa\Matières\NSI\1ère G6\programme python\ex 119, la loi de la génétique de Hardy-Weinberg (1908) ««««««««««««««««««««««
+>>>>>>>>>>>>>>>>>>>>>>>>> donées de départ <<<<<<<<<<<<<<<<<<<<<<<<<<<
+nbtours=0
+P0=0.25
+Q0=0.5
+R0=0.25
+P=0.5
+Q=0.5
+R=0.25
+G=0
+>>>>>>>>>>>>>>>>>>>>>> fin des donées de départ <<<<<<<<<<<<<<<<<<<<<<
+=========== donées saisies par l'utilisateur ======================
+CG=3
+P=1/2
+Q=1/2
+R=1/4
+=========== fin des donées saisies par l'utilisateur ======================
+=========== donées finale, après avoir été traité par le programme de vérification ======================
+CG=3
+P=0.25
+Q=0.5
+R=0.25
+=========== fin donées finale, après avoir été traité par le programme de vérification ======================
+=========== données du tour n°0 ======================
+P0=0.25
+Q0=0.5
+R0=0.25
+P1=(0.25+(0.5/2))**2=
+R0.25=(1+(0.25/2))**2=
+Q0.5=1-(0.5+1)=0.25
+P1=0.25
+Q1=0.5
+R1=0.25
+=========== fin donées du tour n°1 ======================
+Créé par Henry Letellier © © ®
+=========== données du tour n°1 ======================
+P1=0.25
+Q1=0.5
+R1=0.25
+P2=(0.25+(0.5/2))**2=
+R0.25=(2+(0.25/2))**2=
+Q0.5=1-(0.5+2)=0.25
+P2=0.25
+Q2=0.5
+R2=0.25
+=========== fin donées du tour n°2 ======================
+Créé par Henry Letellier © © ®
+=========== données du tour n°2 ======================
+P2=0.25
+Q2=0.5
+R2=0.25
+P3=(0.25+(0.5/2))**2=
+R0.25=(3+(0.25/2))**2=
+Q0.5=1-(0.5+3)=0.25
+P3=0.25
+Q3=0.5
+R3=0.25
+=========== fin donées du tour n°3 ======================
+Créé par Henry Letellier © © ®
+########### Début du log du 18/5/2020 ######################
+»»»»»»»»»»»»»»»»»»»»»» Chemin d'accès:C:\Users\Henry PC\Dropbox\Henry et Papa\Matières\NSI\1ère G6\programme python\ex 119, la loi de la génétique de Hardy-Weinberg (1908) ««««««««««««««««««««««
+>>>>>>>>>>>>>>>>>>>>>>>>> donées de départ <<<<<<<<<<<<<<<<<<<<<<<<<<<
+nbtours=0
+P0=0.25
+Q0=0.5
+R0=0.25
+P=0.5
+Q=0.5
+R=0.25
+G=0
+>>>>>>>>>>>>>>>>>>>>>> fin des donées de départ <<<<<<<<<<<<<<<<<<<<<<
+=========== donées saisies par l'utilisateur ======================
+CG=3
+P=1/2
+Q=1/2
+R=1/4
+=========== fin des donées saisies par l'utilisateur ======================
+########### Début du log du 18/5/2020 ######################
+»»»»»»»»»»»»»»»»»»»»»» Chemin d'accès:C:\Users\Henry PC\Dropbox\Henry et Papa\Matières\NSI\1ère G6\programme python\ex 119, la loi de la génétique de Hardy-Weinberg (1908) ««««««««««««««««««««««
+>>>>>>>>>>>>>>>>>>>>>>>>> donées de départ <<<<<<<<<<<<<<<<<<<<<<<<<<<
+nbtours=0
+P0=0.25
+Q0=0.5
+R0=0.25
+P=0.5
+Q=0.5
+R=0.25
+G=0
+>>>>>>>>>>>>>>>>>>>>>> fin des donées de départ <<<<<<<<<<<<<<<<<<<<<<
+=========== donées saisies par l'utilisateur ======================
+CG=3
+P=1/2
+Q=1/2
+R=1/4
+=========== fin des donées saisies par l'utilisateur ======================
+########### Début du log du 18/5/2020 ######################
+»»»»»»»»»»»»»»»»»»»»»» Chemin d'accès:C:\Users\Henry PC\Dropbox\Henry et Papa\Matières\NSI\1ère G6\programme python\ex 119, la loi de la génétique de Hardy-Weinberg (1908) ««««««««««««««««««««««
+>>>>>>>>>>>>>>>>>>>>>>>>> donées de départ <<<<<<<<<<<<<<<<<<<<<<<<<<<
+nbtours=0
+P0=0.25
+Q0=0.5
+R0=0.25
+P=0.5
+Q=0.5
+R=0.25
+G=0
+>>>>>>>>>>>>>>>>>>>>>> fin des donées de départ <<<<<<<<<<<<<<<<<<<<<<
+=========== donées saisies par l'utilisateur ======================
+CG=3
+P=
+Q=
+R=
+=========== fin des donées saisies par l'utilisateur ======================
+=========== donées finale, après avoir été traité par le programme de vérification ======================
+CG=3
+P=0.25
+Q=0.5
+R=0.25
+=========== fin donées finale, après avoir été traité par le programme de vérification ======================
+=========== données du tour n°0 ======================
+P0=0.25
+Q0=0.5
+R0=0.25
+P1=(0.25+(0.5/2))**2=
+R0.25=(1+(0.25/2))**2=
+Q0.5=1-(0.5+1)=0.25
+P1=0.25
+Q1=0.5
+R1=0.25
+=========== fin donées du tour n°1 ======================
+Créé par Henry Letellier © © ®
+=========== données du tour n°1 ======================
+P1=0.25
+Q1=0.5
+R1=0.25
+P2=(0.25+(0.5/2))**2=
+R0.25=(2+(0.25/2))**2=
+Q0.5=1-(0.5+2)=0.25
+P2=0.25
+Q2=0.5
+R2=0.25
+=========== fin donées du tour n°2 ======================
+Créé par Henry Letellier © © ®
+=========== données du tour n°2 ======================
+P2=0.25
+Q2=0.5
+R2=0.25
+P3=(0.25+(0.5/2))**2=
+R0.25=(3+(0.25/2))**2=
+Q0.5=1-(0.5+3)=0.25
+P3=0.25
+Q3=0.5
+R3=0.25
+=========== fin donées du tour n°3 ======================
+Créé par Henry Letellier © © ®
+########### Début du log du 18/5/2020 ######################
+»»»»»»»»»»»»»»»»»»»»»» Chemin d'accès:C:\Users\Henry PC\Dropbox\Henry et Papa\Matières\NSI\1ère G6\programme python\ex 119, la loi de la génétique de Hardy-Weinberg (1908) ««««««««««««««««««««««
+>>>>>>>>>>>>>>>>>>>>>>>>> donées de départ <<<<<<<<<<<<<<<<<<<<<<<<<<<
+nbtours=0
+P0=0.25
+Q0=0.5
+R0=0.25
+P=0.5
+Q=0.5
+R=0.25
+G=0
+>>>>>>>>>>>>>>>>>>>>>> fin des donées de départ <<<<<<<<<<<<<<<<<<<<<<
+=========== donées saisies par l'utilisateur ======================
+CG=3
+P=
+Q=
+R=
+=========== fin des donées saisies par l'utilisateur ======================
+=========== donées finale, après avoir été traité par le programme de vérification ======================
+CG=3
+P=0.25
+Q=0.5
+R=0.5
+=========== fin donées finale, après avoir été traité par le programme de vérification ======================
+=========== données du tour n°0 ======================
+P0=0.25
+Q0=0.5
+R0=0.5
+P1=(0.25+(0.5/2))**2=
+R0.25=(1+(0.5/2))**2=
+Q0.5=1-(0.1875+1)=0.25
+P1=0.25
+Q1=0.5
+R1=0.5
+=========== fin donées du tour n°1 ======================
+Créé par Henry Letellier © © ®
+=========== données du tour n°1 ======================
+P1=0.25
+Q1=0.1875
+R1=0.5625
+P2=(0.25+(0.1875/2))**2=
+R0.1181640625=(2+(0.5625/2))**2=
+Q0.1875=1-(0.451171875+2)=0.25
+P2=0.25
+Q2=0.1875
+R2=0.5625
+=========== fin donées du tour n°2 ======================
+Créé par Henry Letellier © © ®
+=========== données du tour n°2 ======================
+P2=0.1181640625
+Q2=0.451171875
+R2=0.4306640625
+P3=(0.1181640625+(0.451171875/2))**2=
+R0.1181640625=(3+(0.4306640625/2))**2=
+Q0.451171875=1-(0.451171875+3)=0.1181640625
+P3=0.1181640625
+Q3=0.451171875
+R3=0.4306640625
+=========== fin donées du tour n°3 ======================
+Créé par Henry Letellier © © ®
+########### Début du log du 18/5/2020 ######################
+»»»»»»»»»»»»»»»»»»»»»» Chemin d'accès:C:\Users\Henry PC\Dropbox\Henry et Papa\Matières\NSI\1ère G6\programme python\ex 119, la loi de la génétique de Hardy-Weinberg (1908) ««««««««««««««««««««««
+>>>>>>>>>>>>>>>>>>>>>>>>> donées de départ <<<<<<<<<<<<<<<<<<<<<<<<<<<
+nbtours=0
+P0=0.25
+Q0=0.5
+R0=0.25
+P=0.5
+Q=0.5
+R=0.25
+G=0
+>>>>>>>>>>>>>>>>>>>>>> fin des donées de départ <<<<<<<<<<<<<<<<<<<<<<
+=========== donées saisies par l'utilisateur ======================
+CG=3
+P=0.25
+Q=0.5
+R=0.25
+=========== fin des donées saisies par l'utilisateur ======================
+=========== donées finale, après avoir été traité par le programme de vérification ======================
+CG=3
+P=0.25
+Q=0.5
+R=0.25
+=========== fin donées finale, après avoir été traité par le programme de vérification ======================
+=========== données du tour n°0 ======================
+P0=0.25
+Q0=0.5
+R0=0.25
+########### Début du log du 18/5/2020 ######################
+»»»»»»»»»»»»»»»»»»»»»» Chemin d'accès:C:\Users\Henry PC\Dropbox\Henry et Papa\Matières\NSI\1ère G6\programme python\ex 119, la loi de la génétique de Hardy-Weinberg (1908) ««««««««««««««««««««««
+>>>>>>>>>>>>>>>>>>>>>>>>> donées de départ <<<<<<<<<<<<<<<<<<<<<<<<<<<
+nbtours=0
+P0=0.25
+Q0=0.5
+R0=0.25
+P=0.5
+Q=0.5
+R=0.25
+G=0
+>>>>>>>>>>>>>>>>>>>>>> fin des donées de départ <<<<<<<<<<<<<<<<<<<<<<
+=========== donées saisies par l'utilisateur ======================
+CG=3
+P=0.5
+Q=0.5
+R=0.25
+=========== fin des donées saisies par l'utilisateur ======================
+=========== donées finale, après avoir été traité par le programme de vérification ======================
+CG=3
+P=0.5
+Q=0.5
+R=0.25
+=========== fin donées finale, après avoir été traité par le programme de vérification ======================
+=========== données du tour n°0 ======================
+P0=0.5
+Q0=0.5
+R0=0.25
+########### Début du log du 18/5/2020 ######################
+»»»»»»»»»»»»»»»»»»»»»» Chemin d'accès:C:\Users\Henry PC\Dropbox\Henry et Papa\Matières\NSI\1ère G6\programme python\ex 119, la loi de la génétique de Hardy-Weinberg (1908) ««««««««««««««««««««««
+>>>>>>>>>>>>>>>>>>>>>>>>> donées de départ <<<<<<<<<<<<<<<<<<<<<<<<<<<
+nbtours=0
+P0=0.25
+Q0=0.5
+R0=0.25
+P=0.5
+Q=0.5
+R=0.25
+G=0
+>>>>>>>>>>>>>>>>>>>>>> fin des donées de départ <<<<<<<<<<<<<<<<<<<<<<
+=========== donées saisies par l'utilisateur ======================
+CG=3
+P=0.5
+Q=0.5
+R=0.25
+=========== fin des donées saisies par l'utilisateur ======================
+=========== donées finale, après avoir été traité par le programme de vérification ======================
+CG=3
+P=0.5
+Q=0.5
+R=0.25
+=========== fin donées finale, après avoir été traité par le programme de vérification ======================
+=========== données du tour n°0 ======================
+P0=0.5
+Q0=0.5
+R0=0.25
+P1=(0.5+(0.5/2))**2=
+R0.5625=(1+(0.25/2))**2=
+Q0.5=1-(0.1875+1)=0.5
+P1=0.5
+Q1=0.5
+R1=0.25
+=========== fin donées du tour n°1 ======================
+Créé par Henry Letellier © © ®
+=========== données du tour n°1 ======================
+P1=0.5625
+Q1=0.1875
+R1=0.25
+P2=(0.5625+(0.1875/2))**2=
+R0.4306640625=(2+(0.25/2))**2=
+Q0.1875=1-(0.451171875+2)=0.5625
+P2=0.5625
+Q2=0.1875
+R2=0.25
+=========== fin donées du tour n°2 ======================
+Créé par Henry Letellier © © ®
+=========== données du tour n°2 ======================
+P2=0.4306640625
+Q2=0.451171875
+R2=0.1181640625
+P3=(0.4306640625+(0.451171875/2))**2=
+R0.4306640625=(3+(0.1181640625/2))**2=
+Q0.451171875=1-(0.451171875+3)=0.4306640625
+P3=0.4306640625
+Q3=0.451171875
+R3=0.1181640625
+=========== fin donées du tour n°3 ======================
+Créé par Henry Letellier © © ®
+########### Début du log du 18/5/2020 ######################
+»»»»»»»»»»»»»»»»»»»»»» Chemin d'accès:C:\Users\Henry PC\Dropbox\Henry et Papa\Matières\NSI\1ère G6\programme python\ex 119, la loi de la génétique de Hardy-Weinberg (1908) ««««««««««««««««««««««
+>>>>>>>>>>>>>>>>>>>>>>>>> donées de départ <<<<<<<<<<<<<<<<<<<<<<<<<<<
+nbtours=0
+P0=0.25
+Q0=0.5
+R0=0.25
+P=0.5
+Q=0.5
+R=0.25
+G=0
+>>>>>>>>>>>>>>>>>>>>>> fin des donées de départ <<<<<<<<<<<<<<<<<<<<<<
+########### Début du log du 18/5/2020 ######################
+»»»»»»»»»»»»»»»»»»»»»» Chemin d'accès:C:\Users\Henry PC\Dropbox\Henry et Papa\Matières\NSI\1ère G6\programme python\ex 119, la loi de la génétique de Hardy-Weinberg (1908) ««««««««««««««««««««««
+>>>>>>>>>>>>>>>>>>>>>>>>> donées de départ <<<<<<<<<<<<<<<<<<<<<<<<<<<
+nbtours=0
+P0=0.25
+Q0=0.5
+R0=0.25
+P=0.5
+Q=0.5
+R=0.25
+G=0
+>>>>>>>>>>>>>>>>>>>>>> fin des donées de départ <<<<<<<<<<<<<<<<<<<<<<
+=========== donées saisies par l'utilisateur ======================
+CG=3
+P=0.5
+Q=0.5
+R=0.25
+=========== fin des donées saisies par l'utilisateur ======================
+=========== donées finale, après avoir été traité par le programme de vérification ======================
+CG=3
+P=0.5
+Q=0.5
+R=0.25
+=========== fin donées finale, après avoir été traité par le programme de vérification ======================
+=========== données du tour n°0 ======================
+P0=0.5
+Q0=0.5
+R0=0.25
+P1=(0.5+(0.5/2))**2=
+R0.5625=(1+(0.25/2))**2=
+Q0.5=1-(0.1875+1)=0.5
+P1=0.5
+Q1=0.5
+R1=0.25
+=========== fin donées du tour n°1 ======================
+Créé par Henry Letellier © © ®
+=========== données du tour n°1 ======================
+P1=0.5625
+Q1=0.1875
+R1=0.25
+P2=(0.5625+(0.1875/2))**2=
+R0.4306640625=(2+(0.25/2))**2=
+Q0.1875=1-(0.451171875+2)=0.5625
+P2=0.5625
+Q2=0.1875
+R2=0.25
+=========== fin donées du tour n°2 ======================
+Créé par Henry Letellier © © ®
+=========== données du tour n°2 ======================
+P2=0.4306640625
+Q2=0.451171875
+R2=0.1181640625
+P3=(0.4306640625+(0.451171875/2))**2=
+R0.4306640625=(3+(0.1181640625/2))**2=
+Q0.451171875=1-(0.451171875+3)=0.4306640625
+P3=0.4306640625
+Q3=0.451171875
+R3=0.1181640625
+=========== fin donées du tour n°3 ======================
+Créé par Henry Letellier © © ®
+########### Début du log du 18/5/2020 ######################
+»»»»»»»»»»»»»»»»»»»»»» Chemin d'accès:C:\Users\Henry PC\Dropbox\Henry et Papa\Matières\NSI\1ère G6\programme python\ex 119, la loi de la génétique de Hardy-Weinberg (1908) ««««««««««««««««««««««
+>>>>>>>>>>>>>>>>>>>>>>>>> donées de départ <<<<<<<<<<<<<<<<<<<<<<<<<<<
+nbtours=0
+P0=0.25
+Q0=0.5
+R0=0.25
+P=0.5
+Q=0.5
+R=0.25
+G=0
+>>>>>>>>>>>>>>>>>>>>>> fin des donées de départ <<<<<<<<<<<<<<<<<<<<<<
+=========== Donées saisies par l'utilisateur ======================
+CG=3
+P=0.5
+Q=0.5
+R=0.25
+=========== Fin des donées saisies par l'utilisateur ======================
+=========== Donées finale, après avoir été traité par le programme de vérification ======================
+CG=3
+P=0.5
+Q=0.5
+R=0.25
+=========== Fin donées finale, après avoir été traité par le programme de vérification ======================
+=========== Données du tour n°0 ======================
+P0=0.5
+Q0=0.5
+R0=0.25
+P1=(0.5+(0.5/2))**2=
+R0.5625=(1+(0.25/2))**2=
+Q0.5=1-(0.1875+1)=0.5
+P1=0.5
+Q1=0.5
+R1=0.25
+=========== Fin donées du tour n°1 ======================
+Créé par Henry Letellier © © ®
+=========== Données du tour n°1 ======================
+P1=0.5625
+Q1=0.1875
+R1=0.25
+P2=(0.5625+(0.1875/2))**2=
+R0.4306640625=(2+(0.25/2))**2=
+Q0.1875=1-(0.451171875+2)=0.5625
+P2=0.5625
+Q2=0.1875
+R2=0.25
+=========== Fin donées du tour n°2 ======================
+Créé par Henry Letellier © © ®
+=========== Données du tour n°2 ======================
+P2=0.4306640625
+Q2=0.451171875
+R2=0.1181640625
+P3=(0.4306640625+(0.451171875/2))**2=
+R0.4306640625=(3+(0.1181640625/2))**2=
+Q0.451171875=1-(0.451171875+3)=0.4306640625
+P3=0.4306640625
+Q3=0.451171875
+R3=0.1181640625
+=========== Fin donées du tour n°3 ======================
+Créé par Henry Letellier © © ®
+
+»»»»»»»»»»»»»»»»»»»»»» Chemin d'accès: C:\Users\Henry PC\Dropbox\Henry et Papa\Matières\NSI\1ère G6\programme python\ex 119, la loi de la génétique de Hardy-Weinberg (1908) ««««««««««««««««««««««
+########### Fin du log du 18/5/2020 ################################# Début du log du 18/5/2020 ######################
+»»»»»»»»»»»»»»»»»»»»»» Chemin d'accès:C:\Users\Henry PC\Dropbox\Henry et Papa\Matières\NSI\1ère G6\programme python\ex 119, la loi de la génétique de Hardy-Weinberg (1908) ««««««««««««««««««««««
+>>>>>>>>>>>>>>>>>>>>>>>>> donées de départ <<<<<<<<<<<<<<<<<<<<<<<<<<<
+nbtours=0
+P0=0.25
+Q0=0.5
+R0=0.25
+P=0.5
+Q=0.5
+R=0.25
+G=0
+>>>>>>>>>>>>>>>>>>>>>> fin des donées de départ <<<<<<<<<<<<<<<<<<<<<<
+=========== Donées saisies par l'utilisateur ======================
+CG=3
+P=0.5
+Q=0.5
+R=0.25
+=========== Fin des donées saisies par l'utilisateur ======================
+=========== Donées finale, après avoir été traité par le programme de vérification ======================
+CG=3
+P=0.5
+Q=0.5
+R=0.25
+=========== Fin donées finale, après avoir été traité par le programme de vérification ======================
+=========== Données du tour n°0 ======================
+P0=0.5
+Q0=0.5
+R0=0.25
+P1=(0.5+(0.5/2))**2=0.5625
+R1=(0.25+(0.5/2))**2=0.25
+Q1=1-(0.5+0.25)=0.1875P1=0.5
+Q1=0.5
+R1=0.25
+=========== Fin donées du tour n°1 ======================
+Créé par Henry Letellier © © ®
+=========== Données du tour n°1 ======================
+P1=0.5625
+Q1=0.1875
+R1=0.25
+P2=(0.5625+(0.1875/2))**2=0.4306640625
+R2=(0.25+(0.1875/2))**2=0.1181640625
+Q2=1-(0.5625+0.25)=0.451171875P2=0.5625
+Q2=0.1875
+R2=0.25
+=========== Fin donées du tour n°2 ======================
+Créé par Henry Letellier © © ®
+=========== Données du tour n°2 ======================
+P2=0.4306640625
+Q2=0.451171875
+R2=0.1181640625
+P3=(0.4306640625+(0.451171875/2))**2=0.4306640625
+R3=(0.1181640625+(0.451171875/2))**2=0.1181640625
+Q3=1-(0.4306640625+0.1181640625)=0.451171875P3=0.4306640625
+Q3=0.451171875
+R3=0.1181640625
+=========== Fin donées du tour n°3 ======================
+Créé par Henry Letellier © © ®
+
+»»»»»»»»»»»»»»»»»»»»»» Chemin d'accès: C:\Users\Henry PC\Dropbox\Henry et Papa\Matières\NSI\1ère G6\programme python\ex 119, la loi de la génétique de Hardy-Weinberg (1908) ««««««««««««««««««««««
+########### Fin du log du 18/5/2020 ################################# Début du log du 18/5/2020 ######################
+»»»»»»»»»»»»»»»»»»»»»» Chemin d'accès:C:\Users\Henry PC\Dropbox\Henry et Papa\Matières\NSI\1ère G6\programme python\ex 119, la loi de la génétique de Hardy-Weinberg (1908) ««««««««««««««««««««««
+>>>>>>>>>>>>>>>>>>>>>>>>> donées de départ <<<<<<<<<<<<<<<<<<<<<<<<<<<
+nbtours=0
+P0=0.25
+Q0=0.5
+R0=0.25
+P=0.5
+Q=0.5
+R=0.25
+G=0
+>>>>>>>>>>>>>>>>>>>>>> fin des donées de départ <<<<<<<<<<<<<<<<<<<<<<
+=========== Donées saisies par l'utilisateur ======================
+CG=3
+P=0.5
+Q=0.5
+R=0.25
+=========== Fin des donées saisies par l'utilisateur ======================
+=========== Donées finale, après avoir été traité par le programme de vérification ======================
+CG=3
+P=0.5
+Q=0.5
+R=0.25
+=========== Fin donées finale, après avoir été traité par le programme de vérification ======================
+=========== Données du tour n°0 ======================
+P0=0.5
+Q0=0.5
+R0=0.25
+P1=(0.5+(0.5/2))**2=0.5625
+R1=(0.25+(0.5/2))**2=0.25
+Q1=1-(0.5+0.25)=0.1875P1=0.5
+Q1=0.5
+R1=0.25
+=========== Fin donées du tour n°1 ======================
+Créé par Henry Letellier © © ®
+=========== Données du tour n°1 ======================
+P1=0.5625
+Q1=0.1875
+R1=0.25
+P2=(0.5625+(0.1875/2))**2=0.4306640625
+R2=(0.25+(0.1875/2))**2=0.1181640625
+Q2=1-(0.5625+0.25)=0.451171875P2=0.5625
+Q2=0.1875
+R2=0.25
+=========== Fin donées du tour n°2 ======================
+Créé par Henry Letellier © © ®
+=========== Données du tour n°2 ======================
+P2=0.4306640625
+Q2=0.451171875
+R2=0.1181640625
+P3=(0.4306640625+(0.451171875/2))**2=0.4306640625
+R3=(0.1181640625+(0.451171875/2))**2=0.1181640625
+Q3=1-(0.4306640625+0.1181640625)=0.451171875P3=0.4306640625
+Q3=0.451171875
+R3=0.1181640625
+=========== Fin donées du tour n°3 ======================
+Créé par Henry Letellier © © ®
+
+»»»»»»»»»»»»»»»»»»»»»» Chemin d'accès: C:\Users\Henry PC\Dropbox\Henry et Papa\Matières\NSI\1ère G6\programme python\ex 119, la loi de la génétique de Hardy-Weinberg (1908) ««««««««««««««««««««««
+########### Fin du log du 18/5/2020 ################################# Début du log du 18/5/2020 ######################
+»»»»»»»»»»»»»»»»»»»»»» Chemin d'accès:C:\Users\Henry PC\Dropbox\Henry et Papa\Matières\NSI\1ère G6\programme python\ex 119, la loi de la génétique de Hardy-Weinberg (1908) ««««««««««««««««««««««
+>>>>>>>>>>>>>>>>>>>>>>>>> donées de départ <<<<<<<<<<<<<<<<<<<<<<<<<<<
+nbtours=0
+P0=0.25
+Q0=0.5
+R0=0.25
+P=0.5
+Q=0.5
+R=0.25
+G=0
+>>>>>>>>>>>>>>>>>>>>>> fin des donées de départ <<<<<<<<<<<<<<<<<<<<<<
+=========== Donées saisies par l'utilisateur ======================
+CG=3
+P=0.5
+Q=0.5
+R=0.25
+=========== Fin des donées saisies par l'utilisateur ======================
+=========== Donées finale, après avoir été traité par le programme de vérification ======================
+CG=3
+P=0.5
+Q=0.5
+R=0.25
+=========== Fin donées finale, après avoir été traité par le programme de vérification ======================
+=========== Données du tour n°0 ======================
+P0=0.5
+Q0=0.5
+R0=0.25
+P1=(0.5+(0.5/2))**2=0.5625
+R1=(0.25+(0.5/2))**2=0.25
+Q1=1-(0.5+0.25)=0.1875P1=0.5625
+Q1=0.1875
+R1=0.25
+=========== Fin donées du tour n°1 ======================
+Créé par Henry Letellier © © ®
+=========== Données du tour n°1 ======================
+P1=0.5
+Q1=0.5
+R1=0.25
+P2=(0.5+(0.5/2))**2=0.5625
+R2=(0.25+(0.5/2))**2=0.25
+Q2=1-(0.5+0.25)=0.1875P2=0.5625
+Q2=0.1875
+R2=0.25
+=========== Fin donées du tour n°2 ======================
+Créé par Henry Letellier © © ®
+=========== Données du tour n°2 ======================
+P2=0.5
+Q2=0.5
+R2=0.25
+P3=(0.5+(0.5/2))**2=0.5625
+R3=(0.25+(0.5/2))**2=0.25
+Q3=1-(0.5+0.25)=0.1875P3=0.5625
+Q3=0.1875
+R3=0.25
+=========== Fin donées du tour n°3 ======================
+Créé par Henry Letellier © © ®
+
+»»»»»»»»»»»»»»»»»»»»»» Chemin d'accès: C:\Users\Henry PC\Dropbox\Henry et Papa\Matières\NSI\1ère G6\programme python\ex 119, la loi de la génétique de Hardy-Weinberg (1908) ««««««««««««««««««««««
+########### Fin du log du 18/5/2020 ################################# Début du log du 18/5/2020 ######################
+»»»»»»»»»»»»»»»»»»»»»» Chemin d'accès:C:\Users\Henry PC\Dropbox\Henry et Papa\Matières\NSI\1ère G6\programme python\ex 119, la loi de la génétique de Hardy-Weinberg (1908) ««««««««««««««««««««««
+>>>>>>>>>>>>>>>>>>>>>>>>> donées de départ <<<<<<<<<<<<<<<<<<<<<<<<<<<
+nbtours=0
+P0=0.25
+Q0=0.5
+R0=0.25
+P=0.5
+Q=0.5
+R=0.25
+G=0
+>>>>>>>>>>>>>>>>>>>>>> fin des donées de départ <<<<<<<<<<<<<<<<<<<<<<
+=========== Donées saisies par l'utilisateur ======================
+CG=3
+P=0.5
+Q=0.5
+R=0.25
+=========== Fin des donées saisies par l'utilisateur ======================
+=========== Donées finale, après avoir été traité par le programme de vérification ======================
+CG=3
+P=0.5
+Q=0.5
+R=0.25
+=========== Fin donées finale, après avoir été traité par le programme de vérification ======================
+=========== Données du tour n°0 ======================
+P0=0.5
+Q0=0.5
+R0=0.25
+P1=(0.5+(0.5/2))**2=0.5625
+R1=(0.25+(0.5/2))**2=0.25
+Q1=1-(0.5625+0.25)=0.1875
+P1=0.5625
+Q1=0.1875
+R1=0.25
+=========== Fin donées du tour n°1 ======================
+Créé par Henry Letellier © © ®
+=========== Données du tour n°1 ======================
+P1=0.5625
+Q1=0.1875
+R1=0.25
+P2=(0.5625+(0.1875/2))**2=0.4306640625
+R2=(0.25+(0.1875/2))**2=0.1181640625
+Q2=1-(0.4306640625+0.1181640625)=0.451171875
+P2=0.4306640625
+Q2=0.451171875
+R2=0.1181640625
+=========== Fin donées du tour n°2 ======================
+Créé par Henry Letellier © © ®
+=========== Données du tour n°2 ======================
+P2=0.4306640625
+Q2=0.451171875
+R2=0.1181640625
+P3=(0.4306640625+(0.451171875/2))**2=0.4306640625
+R3=(0.1181640625+(0.451171875/2))**2=0.1181640625
+Q3=1-(0.4306640625+0.1181640625)=0.451171875
+P3=0.4306640625
+Q3=0.451171875
+R3=0.1181640625
+=========== Fin donées du tour n°3 ======================
+Créé par Henry Letellier © © ®
+
+»»»»»»»»»»»»»»»»»»»»»» Chemin d'accès: C:\Users\Henry PC\Dropbox\Henry et Papa\Matières\NSI\1ère G6\programme python\ex 119, la loi de la génétique de Hardy-Weinberg (1908) ««««««««««««««««««««««
+########### Fin du log du 18/5/2020 ################################# Début du log du 18/5/2020 ######################
+»»»»»»»»»»»»»»»»»»»»»» Chemin d'accès:C:\Users\Henry PC\Dropbox\Henry et Papa\Matières\NSI\1ère G6\programme python\ex 119, la loi de la génétique de Hardy-Weinberg (1908) ««««««««««««««««««««««
+>>>>>>>>>>>>>>>>>>>>>>>>> donées de départ <<<<<<<<<<<<<<<<<<<<<<<<<<<
+nbtours=0
+P0=0.25
+Q0=0.5
+R0=0.25
+P=0.5
+Q=0.5
+R=0.25
+G=0
+>>>>>>>>>>>>>>>>>>>>>> fin des donées de départ <<<<<<<<<<<<<<<<<<<<<<
+=========== Donées saisies par l'utilisateur ======================
+CG=3
+P=0.5
+Q=0.5
+R=0.25
+=========== Fin des donées saisies par l'utilisateur ======================
+=========== Donées finale, après avoir été traité par le programme de vérification ======================
+CG=3
+P=0.5
+Q=0.5
+R=0.25
+=========== Fin donées finale, après avoir été traité par le programme de vérification ======================
+=========== Données du tour n°0 ======================
+P0=0.5
+Q0=0.5
+R0=0.25
+P1=(0.5+(0.5/2))**2=0.5625
+R1=(0.25+(0.5/2))**2=0.25
+Q1=1-(0.5625+0.25)=0.1875
+P1=0.5625
+Q1=0.1875
+R1=0.25
+=========== Fin donées du tour n°1 ======================
+Créé par Henry Letellier © © ®
+=========== Données du tour n°1 ======================
+P1=0.5625
+Q1=0.1875
+R1=0.25
+P2=(0.5625+(0.1875/2))**2=0.4306640625
+R2=(0.25+(0.1875/2))**2=0.1181640625
+Q2=1-(0.4306640625+0.1181640625)=0.451171875
+P2=0.4306640625
+Q2=0.451171875
+R2=0.1181640625
+=========== Fin donées du tour n°2 ======================
+Créé par Henry Letellier © © ®
+=========== Données du tour n°2 ======================
+P2=0.4306640625
+Q2=0.451171875
+R2=0.1181640625
+P3=(0.4306640625+(0.451171875/2))**2=0.4306640625
+R3=(0.1181640625+(0.451171875/2))**2=0.1181640625
+Q3=1-(0.4306640625+0.1181640625)=0.451171875
+P3=0.4306640625
+Q3=0.451171875
+R3=0.1181640625
+=========== Fin donées du tour n°3 ======================
+Créé par Henry Letellier © © ®
+
+»»»»»»»»»»»»»»»»»»»»»» Chemin d'accès: C:\Users\Henry PC\Dropbox\Henry et Papa\Matières\NSI\1ère G6\programme python\ex 119, la loi de la génétique de Hardy-Weinberg (1908) ««««««««««««««««««««««
+########### Fin du log du 18/5/2020 ######################

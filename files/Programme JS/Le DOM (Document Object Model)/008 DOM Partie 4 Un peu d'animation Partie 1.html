@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Javascript, manipulons le DOM -LLP, by the way, f*ck you</title>
+    <!-- <link rel="stylesheet" type="text/css" href="styles.css"/> --> <!-- ligne complètement inutile ici car j'ai intégré le code dans la page, comme ça, pas de problème de fichiers-->
+</head>
+
+<body>
+    <style>
+        #container {width: 400px;height: 400px;position: relative;background: yellow;}
+        
+        #boite {width: 50px;height: 50px;position: absolute;background: red;}
+        button{background: greenyellow; border:3px outset;color:black;width:70px; height: 60px;}
+        button:hover{border: 3px inset;}
+    </style>
+
+    <h2>Un peu d'animation</h2>
+    <p><button onclick="anime()">Cliquer ici</button></p>
+
+    <div id="container">
+        <div id="boite">
+
+        </div>
+    </div>
+
+    <script>
+        function anime(){
+            var elem=document.getElementById("boite");
+            var pos=0
+            var id=setInterval(frame, 5);
+
+            function frame(){
+                if (pos==350){
+                    clearInterval(id);
+                    elem.style.top=0
+                    elem.style.left=0
+                }
+                else{
+                    pos=pos+1;
+                    elem.style.top=pos+"px";
+                    elem.style.left=pos+"px";
+                }
+            }
+        }
+    </script>
+</body>
+
+</html>

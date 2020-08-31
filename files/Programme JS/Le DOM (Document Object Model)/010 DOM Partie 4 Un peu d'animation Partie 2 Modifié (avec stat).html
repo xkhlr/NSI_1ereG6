@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Javascript, manipulons le DOM -LLP, by the way, f*ck you</title>
+    <!-- <link rel="stylesheet" type="text/css" href="styles.css"/> --> <!-- ligne complètement inutile ici car j'ai intégré le code dans la page, comme ça, pas de problème de fichiers-->
+</head>
+
+<body>
+    <style>
+        #container {width: 400px;height: 400px;position: relative;background: yellow;}
+        
+        #boite {width: 50px;height: 50px;position: absolute;background: red;}
+        button{background: greenyellow; border:3px outset;color:black;width:70px; height: 60px;}
+        button:active{border: 3px inset;}
+        center{text-align: center;/*On met le texte au centre*/}
+    </style>
+    <table>
+        <tr>
+            <td><h2>Un peu d'animation</h2></td>
+            <th><center>Quelques données</center></th>
+        <tr>
+            <td><p><button onclick="anime()">Cliquer ici</button></p></td>
+            <td><p id="demo">Le code du sprite est affiché ici</p></td>
+            
+        </tr>
+        <tr>
+            <td><div id="container">
+                    <div id="boite">
+
+                    </div>
+                </div></td>
+            <td><p id="balise1">...</p><br><p id="balise2">...</p><br><p id="balise3">...</p><br><p id="balise4">...</p><br><p id="balise5">...</p><br><p id="balise6">...</p></td>
+            <!-- <td><p id="balise7">...</p></td> --> <!-- Indisponible ici pusique mOver n'existre pas encore-->
+        </tr>
+    </table>
+    
+
+        
+    
+
+    <script>
+        function anime(){
+            var elem=document.getElementById("boite");
+            var pos_x=0;
+            var pos_y=0;
+            var pos=0;
+            var dx=1, dy=1;
+            var id=setInterval(frame, 5);
+            var turn=0;
+            //var identifiant=obj.id; //on récupère l'id de la boite indisponible dans cette page car mOver n'existe pas encore
+            
+
+            function frame(){
+                document.getElementById("balise1").innerHTML="La valeure de la balise pos_x est: "+pos_x;
+                document.getElementById("balise2").innerHTML="La valeure de la balise pos_y est: "+pos_y;
+                document.getElementById("balise3").innerHTML="La valeure de la balise pos est: "+pos;
+                document.getElementById("balise4").innerHTML="La valeure de la balise dx est: "+dx;
+                document.getElementById("balise5").innerHTML="La valeure de la balise dy est: "+dy;
+                document.getElementById("balise6").innerHTML="La valeure de la balise id est est: "+id;
+                if (pos==2000){
+                    clearInterval(id);
+                    alert("Annayse de stat terminée!");
+                        alert("Penssez à regarder la console pour un suivi plus précis.");
+                }
+                else{
+                    pos=pos+1;
+                    turn=turn+1
+                    pos_x=pos_x+dx;
+                    pos_y=pos_y+dy;
+                    if (pos_x>350){
+                        dx=-3;
+                    }
+                    if (pos_y>350){
+                        dy=-1;
+                    }
+                    if (pos_x<=0){
+                        dx=2;
+                    }
+                    if (pos_y<=0){
+                        dy=1;
+                    }
+
+                    elem.style.top=pos_y+"px";
+                    elem.style.left=pos_x+"px";
+                }
+                document.getElementById("balise1").innerHTML="La valeure de la balise pos_x au tour n°"+turn+" est: "+pos_x;
+                document.getElementById("balise2").innerHTML="La valeure de la balise pos_y au tour n°"+turn+" est: "+pos_y;
+                document.getElementById("balise3").innerHTML="La valeure de la balise pos au tour n°"+turn+" est: "+pos;
+                document.getElementById("balise4").innerHTML="La valeure de la balise dx au tour n°"+turn+" est: "+dx;
+                document.getElementById("balise5").innerHTML="La valeure de la balise dy au tour n°"+turn+" est: "+dy;
+                document.getElementById("balise6").innerHTML="La valeure de la balise id au tour n°"+turn+" est: "+id;
+                //document.getElementById("balise7").innerHTML="La valeure de la balise identifiant ou obj.id  au tour n°"+turn+" est: "+identifiant; //indisponible ici puisque mOver n'existe pas encore
+                console.log("pos_x, tour "+turn+", = "+pos_x)
+                console.log("pos_y, tour "+turn+", = "+pos_y)
+                console.log("pos, tour "+turn+", = "+pos)
+                console.log("dx, tour "+turn+", = "+dx)
+                console.log("dy, tour "+turn+", = "+dy)
+                console.log("id, tour "+turn+", ="+id)
+                //console.log("identifiant = "+identifiant) //indisponible ici puisue mOver n'existe pas encore
+
+            }    
+        }
+        
+    </script>
+</body>
+                    <!-- //elem.style.top=0
+                    //elemn.style.left=0
+                    //function fraame(){
+                        //if (poss==2000){
+                            //elem.style.top=0
+                            //elemn.style.left=0
+                        //}
+                        //else{
+                        //    poss=poss+1
+                        //}
+                    //} 
+                    var poss=0;
+                    var idd=setInterval(fraame, 5);-->
+</html>

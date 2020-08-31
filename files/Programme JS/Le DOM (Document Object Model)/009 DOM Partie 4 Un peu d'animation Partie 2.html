@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Javascript, manipulons le DOM -LLP, by the way, f*ck you</title>
+    <!-- <link rel="stylesheet" type="text/css" href="styles.css"/> --> <!-- ligne complètement inutile ici car j'ai intégré le code dans la page, comme ça, pas de problème de fichiers-->
+</head>
+
+<body>
+    <style>
+        #container {width: 400px;height: 400px;position: relative;background: yellow;}
+        
+        #boite {width: 50px;height: 50px;position: absolute;background: red;}
+        button{background: greenyellow; border:3px outset;color:black;width:70px; height: 60px;}
+        button:active{border: 3px inset;}
+        center{text-align: center;/*On met le texte au centre*/}
+    </style>
+    <h2>Un peu d'animation</h2>
+    <p><button onclick="anime()">Cliquer ici</button></p>           
+    <div id="container">
+        <div id="boite">
+
+        </div>
+    </div>
+
+    <script>
+        function anime(){
+            var elem=document.getElementById("boite");
+            var pos_x=0;
+            var pos_y=0;
+            var pos=0;
+            var dx=1, dy=1;
+            var id=setInterval(frame, 5);
+            
+
+            function frame(){
+                if (pos==2000){
+                    clearInterval(id);
+                }
+                else{
+                    pos=pos+1;
+                    pos_x=pos_x+dx;
+                    pos_y=pos_y+dy;
+                    if (pos_x>350){
+                        dx=-3;
+                    }
+                    if (pos_y>350){
+                        dy=-1;
+                    }
+                    if (pos_x<=0){
+                        dx=2;
+                    }
+                    if (pos_y<=0){
+                        dy=1;
+                    }
+
+                    elem.style.top=pos_y+"px";
+                    elem.style.left=pos_x+"px";
+                }
+            }    
+        }
+        
+    </script>
+</body>
+                    <!-- //elem.style.top=0
+                    //elemn.style.left=0
+                    //function fraame(){
+                        //if (poss==2000){
+                            //elem.style.top=0
+                            //elemn.style.left=0
+                        //}
+                        //else{
+                        //    poss=poss+1
+                        //}
+                    //} 
+                    var poss=0;
+                    var idd=setInterval(fraame, 5);-->
+</html>

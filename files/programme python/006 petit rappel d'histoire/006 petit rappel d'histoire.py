@@ -1,0 +1,2 @@
+from time import sleep
+pressucc=[{'nom':'Adolphe Tiers', 'date':'(1871-1873)'},{'nom':'Patrice de Mac-Mahon', 'date':'(1873-1879)'},{'nom':'Jules Grévy', 'date':'(1879-1887)'},{'nom':'Sadi Carnot', 'date':'(1887-1894)'},]

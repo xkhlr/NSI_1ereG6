@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<!--
+Created using JS Bin
+http://jsbin.com
+
+Copyright (c) 2020 by HenraL (http://jsbin.com/hocavas/45/edit)
+
+Released under the MIT license: http://jsbin.mit-license.org
+-->
+<meta name="robots" content="noindex">
+<html>
+<head>
+<meta name="description" content="NSI_GLOUTONS">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin - NSI_GLOUTONS</title>
+<style id="jsbin-css">
+html{
+  margin-top:0px;
+}
+/*Customisation du boutton reset*/
+#reset{
+  background-color:white;
+}
+#calc{
+  background-color:white;
+}
+
+/*Customisation de la taille du ; de la 1ère ligne*/
+#big{
+  font-size:2em;
+  font-weight:bolder;
+}
+
+/*customisation des liens*/
+#link{
+  color:blue;
+  text-decoration:none;
+  text-align:center;
+}
+#link:clicked{color:blue;}
+#link:hover{background-color:grey;}
+
+/*modification de la taille des images*/
+/*#500ei{
+  width:79px;
+  height:46px;*/
+/*width="79" height="46" */
+  /*}*/
+/*#ei1{
+  text-align:center;
+  padding: 8px;
+}*/
+
+/*customisation de la balise caption*/
+#caption{
+  text-align:center;
+  font-weight:bolder;
+  font-size:2em;
+  background-color:limegreen;
+}
+
+/* #e500{color:red;} */
+
+/*démarrage du media query*/
+@media screen and (max-width: 1280px)
+{
+  /*stylisation générale du tableau*/
+  #flexleg{
+    border-collapse: collapse;
+    display:flex;
+    flex-wrap:wrap;
+  }
+  /*application de même règles pour toutes les pièces*/
+  #ic1,#ic2,#ic5,#ic10,#ic20,#ic50,#ie1,#ie2{
+    width:59px;
+    height:59px;
+  }
+  /*Appliction des même règles pour tout les billets*/
+  #ie5,#ie10,#ie20,#ie50,#ie100,#ie200,#ie500{
+    width:79px;
+    height:46px;
+  }
+  /*Customisation des span js (+taille du texte)*/
+  #c1,#c2,#c5,#c10,#c20,#c50,#e1,#e2,#e5,#e10,#e20,#e50,#e100,#e200,#e500{
+    text-align:center;
+    font-size:10px;
+  }
+/*changement de la taille du texte*/
+#fc1,#fc2,#fc5,#fc10,#fc20,#fc50,#fe1,#fe2,#fe5,#fe10,#fe20,#fe50,#fe100,#fe200,#fe500{
+    text-align:center;
+    font-size:10px;
+  }
+  
+}
+/*@media handheld
+{*/
+   /*stylisation générale du tableau*/
+ /* #flexleg{
+    border-collapse: collapse;
+    display:flex;
+    flex-wrap:wrap;
+  }*/
+  /*application de même règles pour toutes les pièces*/
+  /*#ic1,#ic2,#ic5,#ic10,#ic20,#ic50,#ie1,#ie2{
+    width:59px;
+    height:59px;
+  }*/
+  /*Appliction des même règles pour tout les billets*/
+ /* #ie5,#ie10,#ie20,#ie50,#ie100,#ie200,#ie500{
+    width:49px;
+    height:26px;
+  }*/
+  /*Customisation des span js (+taille du texte)*/
+  /*#c1,#c2,#c5,#c10,#c20,#c50,#e1,#e2,#e5,#e10,#e20,#e50,#e100,#e200,#e500{
+    text-align:center;
+    font-size:10px;
+  }*/
+  /*changement de la taille du texte*/
+ /* #fc1,#fc2,#fc5,#fc10,#fc20,#fc50,#fe1,#fe2,#fe5,#fe10,#fe20,#fe50,#fe100,#fe200,#fe500{
+    text-align:center;
+    font-size:9px;
+    display:flex;
+    flex-wrap:wrap;
+    word-break: break-all;
+  }
+}
+@media tv
+{*/
+   /*stylisation générale du tableau*/
+  /*#flexleg{
+    border-collapse: collapse;
+    display:flex;
+    flex-wrap:wrap;
+  }*/
+  /*application de même règles pour toutes les pièces*/
+  /*#ic1,#ic2,#ic5,#ic10,#ic20,#ic50,#ie1,#ie2{
+    width:79px;
+    height:79px;
+  }*/
+  /*Appliction des même règles pour tout les billets*/
+  /*#ie5,#ie10,#ie20,#ie50,#ie100,#ie200,#ie500{
+    width:79px;
+    height:46px;
+  }*/
+  /*Customisation des span js (+taille du texte)*/
+  /*#c1,#c2,#c5,#c10,#c20,#c50,#e1,#e2,#e5,#e10,#e20,#e50,#e100,#e200,#e500{
+    text-align:center;
+    font-size:10px;
+  }*/
+  /*changement de la taille du texte*/
+ /* #fc1,#fc2,#fc5,#fc10,#fc20,#fc50,#fe1,#fe2,#fe5,#fe10,#fe20,#fe50,#fe100,#fe200,#fe500{
+    text-align:center;
+    font-size:10px;
+    word-break: break-all;
+  }
+}
+@media projection
+{*/
+   /*stylisation générale du tableau*/
+ /* #flexleg{
+    border-collapse: collapse;
+    display:flex;
+    flex-wrap:wrap;
+  }*/
+  /*application de même règles pour toutes les pièces*/
+  /*#ic1,#ic2,#ic5,#ic10,#ic20,#ic50,#ie1,#ie2{
+    width:79px;
+    height:79px;
+  }*/
+  /*Appliction des même règles pour tout les billets*/
+  /*#ie5,#ie10,#ie20,#ie50,#ie100,#ie200,#ie500{
+    width:79px;
+    height:46px;
+  }*/
+  /*Customisation des span js (+taille du texte)*/
+  /*#c1,#c2,#c5,#c10,#c20,#c50,#e1,#e2,#e5,#e10,#e20,#e50,#e100,#e200,#e500{
+    text-align:center;
+    font-size:10px;
+  }*/
+  /*changement de la taille du texte*/
+  /*#fc1,#fc2,#fc5,#fc10,#fc20,#fc50,#fe1,#fe2,#fe5,#fe10,#fe20,#fe50,#fe100,#fe200,#fe500{
+    text-align:center;
+    font-size:12px;
+    word-break: break-all;
+  }
+}*/
+@media all
+{
+   /*stylisation générale du tableau*/
+  #flexleg{
+    border-collapse: collapse;
+    text-align:center;
+  }
+  .tD{
+    column-width: 70px;
+    column-height: 50px;
+/*     display:flex; */
+/*     flex-wrap:wrap; */
+/*     flex-display:row; */
+    word-break: break-all;
+    margin:0px;
+    text-align:center;
+  }
+  /*application de même règles pour toutes les pièces*/
+  #ic1,#ic2,#ic5,#ic10,#ic20,#ic50,#ie1,#ie2{
+    width:59px;
+    height:59px;
+  }
+  /*Appliction des même règles pour tout les billets*/
+  #ie5,#ie10,#ie20,#ie50,#ie100,#ie200,#ie500{
+    width:69px;
+    height:46px;
+  }
+  /*Customisation des span js (+taille du texte)*/
+  #c1,#c2,#c5,#c10,#c20,#c50,#e1,#e2,#e5,#e10,#e20,#e50,#e100,#e200,#e500{
+    text-align:center;
+    font-size:12px;
+    font-weight:bolder;
+    word-break: break-all;
+  }
+  #link{word-break: break-all;}
+  /*changement de la taille du texte*/
+  #fc1,#fc2,#fc5,#fc10,#fc20,#fc50,#fe1,#fe2,#fe5,#fe10,#fe20,#fe50,#fe100,#fe200,#fe500{
+    text-align:center;
+    font-size:12px;
+    word-break: break-all;
+  }
+}
+
+
+</style>
+</head>
+<body>
+  <p>Montant à rendre (en €) = <input type="number" id="E" onchange="euro()" min=0 step=1/><button id="reset" onclick="reseteuro()">Remettre à 0</button><b id="big">;</b>Montant à rendre (en centimes) = <input type="number" id="C" onchange="centimes()" min=0 step=1/> <button id="reset" onclick="resetCentimes()">Remettre à 0</button><button id="calc" onclick="calc()">Calculer</button></p>
+  <p>Action rapide: <button id="reset" onclick="add10()">+<span id="Ac10">1</span>0</button><button id="reset" onclick="add100()">+<span id="Ac100">1</span>00</button><button id="reset" onclick="add1000()">+<span id="Ac1000">1</span>000</button><button id="reset" onclick="add10c()">+<span id="Ac10c">1</span>0₵</button><button id="reset" onclick="add100c()">+<span id="Ac100c">1</span>00₵</button> (<input type="number" id="Aa" onchange="ac()" min=1 step=1 max=9/>)</p>
+  <p><h1>Voici le retour de monnaie du programe</h1></p>
+  
+  <div id="flexLeg">
+    <table>
+      <tr>
+        <td class="tD"><img id="ie500" src="https://numismag.com/wp-content/uploads/2019/01/500-euros-banknote-1.jpg" ></img></td>
+        <td class="tD"><img id="ie200" src="https://fotomelia.com/wp-content/uploads/edd/2015/03/200-euro-1560x816.png"></img></td>
+        <td class="tD"><img id="ie100" src="https://www.leftovercurrency.com/wp-content/uploads/2016/11/100-euros-banknote-first-series-obverse-1.jpg"></img></td>
+        <td class="tD"><img id="ie50" src="http://fotomelia.com/wp-content/uploads/edd/2015/03/billet-de-50euros-1560x822.png"></img></td>
+        <td class="tD"><img id="ie20" src="https://images3.cgb.fr/images/billets/b79/b79_1082a.jpg"></img></td>
+        <td class="tD"><img id="ie10" src="http://eppe-poissy.net/wp-content/uploads/2014/10/billet-10-Euros1-300x154.jpg"></img></td>
+        <td class="tD"><img id="ie5" src="https://www.leftovercurrency.com/wp-content/uploads/2016/11/5-euros-banknote-first-series-reverse-1.jpg"></img></td>
+        <td class="tD"><img id="ie2" src="https://www.fleur-de-coin.com/images/currency/km-pending/km-4_2017b.jpg"></img></td>
+        <td class="tD"><img id="ie1" src="https://thumbs.dreamstime.com/b/one-euro-coin-illustration-isolated-white-background-34751049.jpg" id="ei1"></img></td>
+        <td class="tD"><img id="ic50" src="https://en.numista.com/catalogue/photos/malte/553-original.jpg"></img></td>
+        <td class="tD"><img id="ic20" src="https://upload.wikimedia.org/wikipedia/lt/thumb/c/c4/Euro_20_Cent.png/220px-Euro_20_Cent.png"></img></td>
+        <td class="tD"><img id="ic10" src="http://upload.wikimedia.org/wikipedia/it/d/d1/0%2C10_%E2%82%AC_2007.jpg"></img></td>
+        <td class="tD"><img id="ic5" src="http://www.fleur-de-coin.com/images/currency/KM200/KM183_2002b.jpg"></img></td>
+        <td class="tD"><img id="ic2" src="https://www.fleur-de-coin.com/images/currency/KM200/KM182_2002b.jpg"></img></td>
+        <td class="tD"><img id="ic1" src="https://www.theology.de/images/1_cent.jpg"></img></tdclass>
+      </tr>
+      <tr>
+        <td id="fe500"><span id="e500">...</span> billet(s) de 500 euros</td>
+        <td id="fe200"><span id="e200">...</span> billet(s) de 200 euros</td>
+        <td id="fe100"><span id="e100">...</span> billet(s) de 100 euros</td>
+        <td id="fe50"><span id="e50">...</span> billet(s) de 50 euros</td>
+        <td id="fe20"><span id="e20">...</span> billet(s) de 20 euros</td>
+        <td id="fe10"><span id="e10">...</span> billet(s) de 10 euros</td>
+        <td id="fe5"><span id="e5">...</span> billet(s) de 5 euros</td>
+        <td id="fe2"><span id="e2">...</span> pièce(s) de 2 euros</td>
+        <td id="fe1"><span id="e1">...</span> pièce(s) de 1 euro</td>
+        <td id="fc50"><span id="c50">...</span> pièce(s) de 50 centimes</td>
+        <td id="fc20"><span id="c20">...</span> pièce(s) de 20 centimes</td>
+        <td id="fc10"><span id="c10">...</span> pièce(s) de 10 centimes</td>
+        <td id="fc5"><span id="c5">...</span> pièce(s) de 5 centimes</td>
+        <td id="fc2"><span id="c2">...</span> pièce(s) de 2 centimes</td>
+        <td id="fc1"><span id="c1">...</span> pièce(s) de 1 centime</td>
+      </tr>
+      <tr>
+        <td><a id="link" href="https://numismag.com/wp-content/uploads/2019/01/500-euros-banknote-1.jpg">numismag.com</a></td>
+        <td><a id="link" href="https://fotomelia.com/wp-content/uploads/edd/2015/03/200-euro-1560x816.png">fotomelia.com</a></td>
+        <td><a id="link" href="https://www.leftovercurrency.com/wp-content/uploads/2016/11/100-euros-banknote-first-series-obverse-1.jpg">leftovercurrency.com</a></td>
+        <td><a id="link" href="http://fotomelia.com/wp-content/uploads/edd/2015/03/billet-de-50euros-1560x822.png">fotomelia.com</a></td>
+        <td><a id="link" href="https://images3.cgb.fr/images/billets/b79/b79_1082a.jpg">images3.cgb.fr</a></td>
+        <td><a id="link" href="http://eppe-poissy.net/wp-content/uploads/2014/10/billet-10-Euros1-300x154.jpg">eppe-poissy.net</a></td>
+        <td><a id="link" href="https://www.leftovercurrency.com/wp-content/uploads/2016/11/5-euros-banknote-first-series-reverse-1.jpg">leftovercurrency.com</a></td>
+        <td><a id="link" href="https://www.fleur-de-coin.com/images/currency/km-pending/km-4_2017b.jpg">fleur-de-coin.com</a></td>
+        <td><a id="link" href="https://thumbs.dreamstime.com/b/one-euro-coin-illustration-isolated-white-background-34751049.jpg">thumbs.dreamtime.com</a></td>
+        <td><a id="link" href="https://en.numista.com/catalogue/photos/malte/553-original.jpg">en.numista.com</a></td>
+        <td><a id="link" href="https://upload.wikimedia.org/wikipedia/lt/thumb/c/c4/Euro_20_Cent.png/220px-Euro_20_Cent.png">upload.wikimedia.org</a></td>
+        <td><a id="link" href="http://upload.wikimedia.org/wikipedia/it/d/d1/0%2C10_%E2%82%AC_2007.jpg">upload.wikimedia.org</a></td>
+        <td><a id="link" href="http://www.fleur-de-coin.com/images/currency/KM200/KM183_2002b.jpg">fleur-de-coin.com</a></td>
+        <td><a id="link" href="https://www.fleur-de-coin.com/images/currency/KM200/KM182_2002b.jpg">fleur-de-coin.com</a></td>
+        <td><a id="link" href="https://www.theology.de/images/1_cent.jpg">theology.de</a></td>
+      </tr>
+    </table>
+  </div>
+  <side>
+    <table>
+      <tr>
+        <caption id="caption">Side data:</caption>
+      </tr>
+      <tr>
+        <td>Montant entré: <span id="e">...</span>€</td>
+        <td>Montant entré: <span id="c">...</span>₵</td>
+        <td>Nombre de billets de 500€: <span id="es500">...</span></td>
+        <td>Nombre de billets de 200€: <span id="es200">...</span></td>
+      </tr>
+      <tr>
+        <td>Nombre de billets de 100€: <span id="es100">...</span></td>
+        <td>Nombre de billets de 50€: <span id="es50">...</span></td>
+        <td>Nombre de billets de 20€: <span id="es20">...</span></td>
+        <td>Nombre de billets de 10€: <span id="es10">...</span></td>
+      </tr>
+      <tr>
+        <td>Nombre de billets de 5€: <span id="es5">...</span></td>
+        <td>Nombre de pièces de 2€: <span id="es2">...</span></td>
+        <td>Nombre de pièces de 1€: <span id="es1">...</span></td>
+        <td>Valeur de la variable des bouton d'incrémentation: <span id="aa">...</span></td>
+      </tr>
+      <tr>
+        <td>Nombre de pièces de 50₵: <span id="cs50">...</span></td>
+        <td>Nombre de pièces de 20₵: <span id="cs20">...</span></td>
+        <td>Nombre de pièces de 10₵: <span id="cs10">...</span></td>
+      </tr>
+      <tr>
+        <td>Nombre de pièces de 5₵: <span id="cs5">...</span></td>
+        <td>Nombre de pièces de 2₵: <span id="cs2">...</span></td>
+        <td>Nombre de pièces de 1₵: <span id="cs1">...</span></td>
+      </tr>
+    </table>
+  </side>
+<script id="jsbin-javascript">
+var xx=0;
+var cc=0;
+// var bb=1;
+document.getElementById('E').value=xx;
+document.getElementById('e').innerHTML=xx;
+document.getElementById('C').value=cc;
+document.getElementById('c').innerHTML=cc;
+function euro(){
+  xx=document.getElementById('E').value;
+  document.getElementById('e').innerHTML=xx;
+  console.log("xx="+xx);
+};
+function reseteuro(){
+  document.getElementById('E').value=0;
+  xx=0;
+  document.getElementById('e').innerHTML=xx;
+};
+
+
+function centimes(){
+  cc=document.getElementById('C').value;
+  document.getElementById('c').innerHTML=cc;
+  console.log("cc="+cc);
+};
+function resetCentimes(){
+  document.getElementById('C').value=0;
+  cc=0;
+  document.getElementById('c').innerHTML=cc;
+};
+
+// Définition des bouttons action rapide
+//Définition de l'incrémentation Ac
+
+// document.getElementById('Ac').innerHTML=bb;
+// document.getElementById('aa').value=bb;
+function ac(){
+  bb=document.getElementById('Aa').value;
+  document.getElementById('Ac10').innerHTML=bb;
+document.getElementById('Ac100').innerHTML=bb;
+document.getElementById('Ac1000').innerHTML=bb;
+document.getElementById('Ac10c').innerHTML=bb;
+document.getElementById('Ac100c').innerHTML=bb;
+document.getElementById('aa').innerHTML=bb;
+  console.log("bb="+bb);
+};
+// Définition du bouton +10
+function add10(){
+// xx+=10;
+        xx+=(bb*10);
+document.getElementById('E').value=xx;
+document.getElementById('e').innerHTML=xx;
+}
+// Définition du bouton +100
+function add100(){
+        xx+=(bb*100);
+  // xx+=100;
+document.getElementById('E').value=xx;
+document.getElementById('e').innerHTML=xx;
+}
+// Définition du bouton +1000
+function add1000(){
+// xx+=1000;
+        xx+=(bb*1000);
+document.getElementById('E').value=xx;
+document.getElementById('e').innerHTML=xx;
+}
+// Définition du bouton +10₵
+function add10c(){
+// cc+=10;
+        cc+=(bb*10);
+document.getElementById('C').value=cc;
+document.getElementById('c').innerHTML=cc;
+}
+// Définition du bouton +100₵
+function add100c(){
+// cc+=100;
+        cc+=(bb*100);
+document.getElementById('C').value=cc;
+document.getElementById('c').innerHTML=cc;
+}
+
+// définition de la variable verifCentimes()
+// function verifCentimes(){
+//   if (rendu50c>=2){
+//     for (var i in rendu50c/2){
+//       rendu50c-=2;
+//       rendu+=1;
+//     };
+//     alert('Le calcule des centimes est terminé.');
+//     someInCent=0;
+//   } else if (someInCent==0){
+//     alert("Le calcule des centimes est terminé.");
+//     alert(someInCent);
+//     document.getElementById('c1').innerHTML=rendu1c;
+//     document.getElementById('c2').innerHTML=rendu2c;
+//     document.getElementById('c5').innerHTML=rendu5c;
+//     document.getElementById('c10').innerHTML=rendu10c;
+//     document.getElementById('c20').innerHTML=rendu20c;
+//     document.getElementById('c50').innerHTML=rendu50c;
+//   } else if{
+//     alert(someInCent);
+//   };
+// };
+
+// écriture du script de calcule
+function calc(){
+  var rendu50c=0;
+  var rendu20c=0;
+  var rendu10c=0;
+  var rendu5c=0;
+  var rendu2c=0;
+  var rendu1c=0;
+  var rendu500=0;
+  var rendu200=0;
+  var rendu100=0;
+  var rendu50=0;
+  var rendu20=0;
+  var rendu10=0;
+  var rendu5=0;
+  var rendu2=0;
+  var rendu=0;
+  var someInCent=cc;
+  var someInEur=xx;
+  // alert(someInCent);
+  // alert(someInEur);
+  if (someInCent===0){
+    someInCent=0;
+    document.getElementById('c').innerHTML=someInCent;
+    document.getElementById("c1").innerHTML=rendu1c;
+    document.getElementById("c2").innerHTML=rendu2c;
+    document.getElementById("c5").innerHTML=rendu5c;
+    document.getElementById("c10").innerHTML=rendu10c;
+    document.getElementById("c20").innerHTML=rendu20c;
+    document.getElementById("c50").innerHTML=rendu50c;
+    document.getElementById("cs1").innerHTML=rendu1c;
+    document.getElementById("cs2").innerHTML=rendu2c;
+    document.getElementById("cs5").innerHTML=rendu5c;
+    document.getElementById("cs10").innerHTML=rendu10c;
+    document.getElementById("cs20").innerHTML=rendu20c;
+    document.getElementById("cs50").innerHTML=rendu50c;
+    console.log("calcule des centimes terminé")
+  }
+  while (someInCent>0){
+    while (someInCent>=50){someInCent-=50;rendu50c+=1;console.log("rendu50c:"+rendu50c);
+                           if (rendu50c===2){
+                             rendu50c-=2;
+                             someInEur+=1;
+                           }
+                          }
+    while (someInCent>=20){
+      someInCent-=20;
+      rendu20c+=1;
+//       console.log("rendu20c:"+rendu20c);
+    }
+    while (someInCent>=10){
+      someInCent-=10;
+      rendu10c+=1;
+//       console.log("rendu10c:"+rendu10c);
+    }
+    while (someInCent>=5){
+      someInCent-=5;
+      rendu5c+=1;
+//       console.log("rendu5c:"+rendu5c);
+    }
+    while (someInCent>=2){
+      someInCent-=2;
+      rendu2c+=1;
+//       console.log("rendu2c:"+rendu2c);
+    }
+    while (someInCent>=1){
+      someInCent-=1;
+      rendu1c+=1;
+//       console.log("rendu1c:"+rendu1c);
+    }
+    if (someInCent===0){
+      if (someInCent===0){
+        alert("Le calcule des centimes est terminé.");
+        alert(someInCent);
+        document.getElementById("c1").innerHTML=rendu1c;
+        document.getElementById("c2").innerHTML=rendu2c;
+        document.getElementById("c5").innerHTML=rendu5c;
+        document.getElementById("c10").innerHTML=rendu10c;
+        document.getElementById("c20").innerHTML=rendu20c;
+        document.getElementById("c50").innerHTML=rendu50c;
+        document.getElementById("cs1").innerHTML=rendu1c;
+        document.getElementById("cs2").innerHTML=rendu2c;
+        document.getElementById("cs5").innerHTML=rendu5c;
+        document.getElementById("cs10").innerHTML=rendu10c;
+        document.getElementById("cs20").innerHTML=rendu20c;
+        document.getElementById("cs50").innerHTML=rendu50c;
+      }
+    }
+  }
+  if (someInEur===0){
+    someInEur=0;
+    document.getElementById('e').innerHTML=someInEur;
+    document.getElementById("e1").innerHTML=rendu;
+    document.getElementById("e2").innerHTML=rendu2;
+    document.getElementById("e5").innerHTML=rendu5;
+    document.getElementById("e10").innerHTML=rendu10;
+    document.getElementById("e20").innerHTML=rendu20;
+    document.getElementById("e50").innerHTML=rendu50;
+    document.getElementById("e100").innerHTML=rendu100;
+    document.getElementById("e200").innerHTML=rendu200;
+    document.getElementById("e500").innerHTML=rendu500;
+    document.getElementById("es1").innerHTML=rendu;
+    document.getElementById("es2").innerHTML=rendu2;
+    document.getElementById("es5").innerHTML=rendu5;
+    document.getElementById("es10").innerHTML=rendu10;
+    document.getElementById("es20").innerHTML=rendu20;
+    document.getElementById("es50").innerHTML=rendu50;
+    document.getElementById("es100").innerHTML=rendu100;
+    document.getElementById("es200").innerHTML=rendu200;
+    document.getElementById("es500").innerHTML=rendu500;
+    console.log("calcule des euros terminé");
+  }
+   while (someInEur>0){
+    while (someInEur>=500){someInEur-=500;rendu500+=1;}
+    while (someInEur>=200){someInEur-=200;rendu200+=1;}
+    while (someInEur>=100){someInEur-=100;rendu100+=1;}
+    while (someInEur>=50){someInEur-=50;rendu50+=1;}
+    while (someInEur>=20){someInEur-=20;rendu20+=1;}
+    while (someInEur>=10){someInEur-=10;rendu10+=1;}
+    while (someInEur>=5){someInEur-=5;rendu5+=1;}
+    while (someInEur>=2){someInEur-=2;rendu2+=1;}
+    while (someInEur>=1){someInEur-=1;rendu+=1;}
+    if (someInEur===0){
+      document.getElementById("e1").innerHTML=rendu;
+      document.getElementById("e2").innerHTML=rendu2;
+      document.getElementById("e5").innerHTML=rendu5;
+      document.getElementById("e10").innerHTML=rendu10;
+      document.getElementById("e20").innerHTML=rendu20;
+      document.getElementById("e50").innerHTML=rendu50;
+      document.getElementById("e100").innerHTML=rendu100;
+      document.getElementById("e200").innerHTML=rendu200;
+      document.getElementById("e500").innerHTML=rendu500;
+      document.getElementById("es1").innerHTML=rendu;
+      document.getElementById("es2").innerHTML=rendu2;
+      document.getElementById("es5").innerHTML=rendu5;
+      document.getElementById("es10").innerHTML=rendu10;
+      document.getElementById("es20").innerHTML=rendu20;
+      document.getElementById("es50").innerHTML=rendu50;
+      document.getElementById("es100").innerHTML=rendu100;
+      document.getElementById("es200").innerHTML=rendu200;
+      document.getElementById("es500").innerHTML=rendu500;
+      console.log("calcule des euros terminé");
+    }
+   }
+}
+
+
+
+
+// while (someInEur>0):
+//     if someineur>1:
+//         if someineur>2:
+//             if someineur>5:
+//                 if someineur>10:
+//                     if someineur>20:
+//                         if someineur>50:
+//                             if someineur>100:
+//                                 if someineur>200:
+//                                     if someineur>500:
+//                                         someineur-=500
+//                                         rendu500+=1
+//                                     else:
+//                                         someineur-=200
+//                                         rendu200+=1
+//                                 else:
+//                                     someineur-100
+//                                     rendu100+=1
+//                             else:
+//                                 someineur-=50
+//                                 rendu50+=1
+//                         else:
+//                             someineur-=20
+//                             rendu20+=1
+//                     else:
+//                         someineur-=10
+//                         rendu10+=1
+//                 else:
+//                     someineur-=5
+//                     rendu5+=1
+//             else:
+//                 someineur-=2
+//                 rendu2+=1
+//         else:
+//             someineur-=1
+//             rendu+=1
+//     elif someineur==0:
+//         print("calcule des euros terminé")
+//     else:
+//         print(someineur)
+// }
+  
+// someineur=int(input("Quel est le montant à rendre (en €): "))
+// someincent=int(input("Quel est le montant à rendre (en centimes): ")) #en html à limiter à 100
+// monnaiecent=[1,2,5,10,20,50]
+// monnaieeur=[1,2,5,10,20,100,200,500]
+// rendu50c=rendu20c=rendu10c=rendu5c=rendu1c=rendu500=rendu200=rendu100=rendu50=rendu20=rendu10=rendu5=rendu2=rendu=0
+// #888
+// while (someincent>0):
+//     if someincent>1:
+//         if someincent>2:
+//             if someincent>5:
+//                 if someincent>10:
+//                     if someincent>20:
+//                         if someincent>50:
+//                            someincent-=50
+//                            rendu50c+=1
+//                     else:
+//                         someincent-=20
+//                         rendu20c+=1
+//                 else:
+//                     someincent-=10
+//                     rendu10c+=1
+//             else:
+//                 someincent-=5
+//                 rendu5c+=1
+//         else:
+//             someincent-=2
+//             rendu2c+=1
+//     else:
+//         someincent-=1
+//         rendu1c+=1
+                            
+// else:
+//     if rendu50c==2:
+//         rendu50c=0
+//         rendu+=1
+//         print("Le calcule des centimes est terminé.")
+//         someincent=0
+//     elif someincent==0:
+//         print("Le calcule des centimes est terminé.")
+//         print(someincent)
+//     else:
+//         print(someincent)
+
+
+// while someineur>0:
+//     if someineur>1:
+//         if someineur>2:
+//             if someineur>5:
+//                 if someineur>10:
+//                     if someineur>20:
+//                         if someineur>50:
+//                             if someineur>100:
+//                                 if someineur>200:
+//                                     if someineur>500:
+//                                         someineur-=500
+//                                         rendu500+=1
+//                                     else:
+//                                         someineur-=200
+//                                         rendu200+=1
+//                                 else:
+//                                     someineur-100
+//                                     rendu100+=1
+//                             else:
+//                                 someineur-=50
+//                                 rendu50+=1
+//                         else:
+//                             someineur-=20
+//                             rendu20+=1
+//                     else:
+//                         someineur-=10
+//                         rendu10+=1
+//                 else:
+//                     someineur-=5
+//                     rendu5+=1
+//             else:
+//                 someineur-=2
+//                 rendu2+=1
+//         else:
+//             someineur-=1
+//             rendu+=1
+//     elif someineur==0:
+//         print("calcule des euros terminé")
+//     else:
+//         print(someineur)
+</script>
+</body>
+</html>

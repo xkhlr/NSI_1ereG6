@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Javascript, manipulons le DOM -LLP, by the way, f*ck you</title>
+        <!-- <link rel="stylesheet" type="text/css" href="styles.css"/> --> <!-- ligne complètement inutile ici car j'ai intégré le code dans la page, comme ça, pas de problème de fichiers-->
+    </head>
+
+    <body>
+        <style>
+            #container {width: 400px;height: 400px;position: relative;background: yellow;}
+            
+            #boite {width: 50px;height: 50px;position: absolute;background: red;}
+            button{background: greenyellow; border:3px outset;color:black;width:70px; height: 60px;}
+            button:active{border: 3px inset;}
+            center{text-align: center;/*On met le texte au centre*/}
+            #error{background:rgba(255, 0, 0, 0.215)}
+            .error{background:rgba(255, 0, 0, 0.315)}
+        </style>
+        <table>
+            <tr>
+                <td><h2>Un peu d'animation</h2></td>
+                <th><center>Quelques données</center></th>
+            <tr>
+                <td><p><button onclick="anime()">Cliquer ici</button></p></td>
+                <td><p id="demo">Le code du sprite est affiché ici</p></td>
+                
+            </tr>
+            <tr>
+                <td><div id="container">
+                        <div id="boite" onmouseover="mOver(this)" onmouseout="mOut(this)">
+                            <p id="score"><center></center></p>
+                        </div>
+                    </div></td>
+                <td><p id="balise1">...</p><br><p id="balise2">...</p><br><p id="balise3">...</p><br><p id="balise4">...</p><br><p id="balise5">...</p><br><p id="balise6">...</p></td>
+                <td><p id="balise7">...</p></td>
+            </tr>
+            <tr>
+                <td>
+                    <p class="error">Errors: <span id="error">...</span></p>
+                </td>
+            </tr>
+        </table>
+        
+
+            
+        
+
+        <script>
+            function anime(){
+                var elem=document.getElementById("boite");
+                var pos_x=0;
+                var pos_y=0;
+                var pos=0;
+                var dx=1, dy=1;
+                var id=setInterval(frame, 5);
+                var turn=0;
+                var score=0;
+                var obj=0;
+                var identifiant=obj.id; //on récupère l'id de la boite indisponible dans cette page car mOver n'existe pas encore
+                
+
+                function frame(){
+                    if (pos==2000){
+                        clearInterval(id);
+                        //alert("Annayse de stat terminée!");
+                            //alert("Penssez à regarder la console pour un suivi plus précis.");
+                    }
+                    else{
+                        pos=pos+1;
+                        turn=turn+1
+                        pos_x=pos_x+dx;
+                        pos_y=pos_y+dy;
+                        if (pos_x>350){
+                            dx=-3;
+                        }
+                        if (pos_y>350){
+                            dy=-1;
+                        }
+                        if (pos_x<=0){
+                            dx=2;
+                        }
+                        if (pos_y<=0){
+                            dy=1;
+                        }
+
+                        elem.style.top=pos_y+"px";
+                        elem.style.left=pos_x+"px";
+                    }
+                    document.getElementById("balise1").innerHTML="La valeure de la balise <i>pos_x</i> au tour n°<b>"+turn+"</b> est: <b>"+pos_x+"</b>";
+                    document.getElementById("balise2").innerHTML="La valeure de la balise <i>pos_y</i> au tour n°<b>"+turn+"</b> est: <b>"+pos_y+"</b>";
+                    document.getElementById("balise3").innerHTML="La valeure de la balise <i>pos</i> au tour n°<b>"+turn+"</b> est: <b>"+pos+"</b>";
+                    document.getElementById("balise4").innerHTML="La valeure de la balise <i>dx</i> au tour n°<b>"+turn+"</b> est: <b>"+dx+"</b>";
+                    document.getElementById("balise5").innerHTML="La valeure de la balise <i>dy</i> au tour n°<b>"+turn+"</b> est: <b>"+dy+"</b>";
+                    document.getElementById("balise6").innerHTML="La valeure de la balise <i>id</i> au tour n°<b>"+turn+"</b> est: <b>"+id+"</b>";
+                    document.getElementById("balise7").innerHTML="La valeure de la balise <i>identifiant</i> ou <i>obj.id</i>  au tour n°<b>"+turn+"</b> est: <b>"+identifiant+"</b>";
+                    console.log("pos_x, tour "+turn+", = "+pos_x);
+                    console.log("pos_y, tour "+turn+", = "+pos_y);
+                    console.log("pos, tour "+turn+", = "+pos);
+                    console.log("dx, tour "+turn+", = "+dx);
+                    console.log("dy, tour "+turn+", = "+dy);
+                    console.log("id, tour "+turn+", ="+id);
+                    console.log("identifiant = "+identifiant);
+                    document.getElementById("error").innerHTML=console.error()
+                }    
+            }
+            
+        </script>
+    </body>
+</html>

@@ -1,0 +1,34 @@
+droite
+elif self.niveau.structure[self.case_y][self.case_x+1] != '1':
+					#Déplacement d'une case
+					self.case_x += 1
+					#Calcul de la position "réelle" en pixel
+					self.x = self.case_x * taille_sprite
+elif self.niveau.structure[self.case_y][self.case_x+1] != '':
+					#Déplacement d'une case
+					self.case_x += 1
+					#Calcul de la position "réelle" en pixel
+					self.x = self.case_x * taille_sprite
+gauche
+elif self.niveau.structure[self.case_y][self.case_x-1] != '1':
+    				self.case_x -= 1
+				self.x = self.case_x * taille_sprite
+elif self.niveau.structure[self.case_y][self.case_x-1] != '':
+    				self.case_x -= 1
+				self.x = self.case_x * taille_sprite
+
+haut
+elif self.niveau.structure[self.case_y-1][self.case_x] != '1':
+					self.case_y -= 1
+					self.y = self.case_y * taille_sprite
+elif self.niveau.structure[self.case_y-1][self.case_x] != '':
+					self.case_y -= 1
+					self.y = self.case_y * taille_sprite
+
+bas
+elif self.niveau.structure[self.case_y+1][self.case_x] != '1':
+					self.case_y += 1
+					self.y = self.case_y * taille_sprite
+elif self.niveau.structure[self.case_y+1][self.case_x] != '':
+					self.case_y += 1
+					self.y = self.case_y * taille_sprite
