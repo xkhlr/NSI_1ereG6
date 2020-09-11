@@ -1,0 +1,72 @@
+!!!!! Sache que la version de widows 10 est plus ancienne que la tienne ou la mienne, donc certaines fonction (je te le dirais) ne fonctionnerons pas chez-nous mais elle ne sont pas élémentaires !!!!
+
+!!! Sa version de windows 10 est en anglais mais cela n'est pas très grave car tout est exliqué en français !!!
+
+
+*1 Les deux interfaces de Windows 10*
+
+les pages 24 à 32 traitent du changement d'heure et fuseau horaires
+de la page 33 à 36 expliquent comment changer la photo de profil de ton ordinateur
+les page 37 à 38 Expliquent comment proprement éteindre ton ordinateur
+
+*2 Applications et logiciels*
+
+Ce qu'il y as sur la page 2 n'est pas totalement vraie, tu peux télécharger des applications en ligne mais faut que tu le téléxharge de sites de confiances, c'est tout.
+
+les pages 40 à 43, t'expliquent comment démarer une application
+les pages 44 à 45, t'expliquent comment customiser les vignettes à côté de la liste d'aplications (rangées dans l'ordre alphabétiques).
+les pages 50 à 51, t'expliquent comment épingler une icône au menu démarer
+les pages 46 à 47, t'expliquent comment redimentionner une icône que tu aura placé dans le menu démarer
+les pages 48 à 49, t'expliquent comment épingler une application à la barre des tâches
+
+les pages 52 à 53, t'expliquent comment redimentionner une fenêtre
+
+la page 54, t'explique comment tu fait pour rapidement naviguer à travers les fenêtres ouvertes (assez pratique, surtout si tu travaille avec des fenêtres en mode plein écran)
+
+les pages 55 et 56 t'explique comment voir le contenu d'une application ouverte sans avoir besoin de basculer dessus, tu t'en sert aussi pour naviguer entre différentes fenêtres d'une même application
+
+les pages 57 et 58 t'expliquent ce que je tente de t'expliquer à chaque fois, le principe du drag and drop, (ici c'est dans le but de déplacer des fichier d'un endroit à un autre), tu verra que le même principe (glisser-déposer) est utiliser dans beaucoup d'actions chez windows, mac et les sites internet lors de la mise en ligne de fichiers (quand proposé)
+
+*3 dossier et fichiers*
+
+les pages 59 à 60 explique la fonciton fondamentale en informatique de dossiers, fichiers et sous dossiers
+
+les pages 61 à 62 t'expliquent comment créé un dossier avec la sourie, et les caractères interdits. PS: Sache que les injures tel que con, ... sont aussi bloqués lors de la création d'un dossier
+
+les pages 63 à 65 t'expliquent un peu comment te servir de l'explorateur des fichiers
+les pages 66 à 69 t'expliquent comment customiser l'apparence de la grille qui te montre les fichiers
+
+les pages 70 à 71 t'expliquent comment se servir de la barre de recherche dans l'explorateur (elle n'est pas très bonne dans notre verison de windows 10, -on ne vois pas le texte que l'on tape-)
+
+les pages 72 à 73 t'expliquent comment tu peux faire pour afficher les bibliothèques (Documents, Musique, Photo (Pictures en anglais), Vidéos, ... (car ce sont des bibliothèques qui peuvent être créées et ne sont pas indispensables))
+
+les pages 74 à 75 te montre différentes façons pour sélectionner des (fichiers, dossiers, images, ...)
+
+les pages 76 à 77 t'expliquent comment copier ou déplacer (tout en restant dans l'explorateur des fichiers) via le glisser déposer
+
+les pages 78 et 79 t'expliquent comment renommer un fichier, dossier, ...
+
+les pages 80 à 81 t'expliquent comment supprimer un fichier, dossier, ... PS: Je te déconeille de supprimer de façon définitive, sinon tu ne pourra plus jamais retrouver le/les fichier(s) supprimé(s), place-les plustôt dans la corbeille, si tu ne veux pas perdre de temps à cliquer sur la croix, tu peux appuyer sur la touche suppr qui fera le même effet que de mettre dans la corbeille (choix par défaut, modifiable dans le panneau de configuration, je te le déconseille car l'autre option c'est de supprimer définitivement c'est à dire à tout jamais, aucune récupe possible)
+
+les pages 82 et 83 ne sont pas importantent pour toi, ce sont des agréments que tu peux rajouter lors de la suppression de fichiers, dossiers, ...
+
+les pages 84 à 86 t'explique comment définitivement supprimer un fichier, dossier, ... de la corbeille mais elle t'enseigne aussi comment vider la corbeille.
+
+les pages 87 à 88 ne sont pas nécessaires pour toi, car les extensions sont déjà affichées pour toi, la suivante, je te la déconseille fortement car elle te montre comment afficher les fichiers cachés, (si tu te tape un virus, ce sera beaucoup plus simple pour zigouller ton ordi, donc je te déconseille fortement d'afficher les fichiers cachés)
+
+les pages 89 à 91 t'expliquent comment ajouter un fichier/dossier à l'accès rapide (à toi de juger si cela va te servir)
+
+les pages 92 à 93 t'expliquent comment faire une recherche et à spécifier si tu veux que ce soit par rapport au fichier de ton ordi ou internet
+
+la page 94 à 95 t'enseigne comment créé un raccourcit
+
+les pages 96 à 97 t'explique comment créé un dossier compresser, ce sera aussi le sujet d'une de mes vidéoe destinées pour toi
+
+les pages 98 à 100 t'explique comment extraire un dossier compresser, ce sera aussi le sujet d'une de mes vidéos destinées pour toi
+
+les pages 101 à 102 t'explique comment graver des ficheirs sur un disque, cela peut aussi être fait par un glissé déposé des fichiers de l'origine vers le disque
+
+les pages 103 à 106 t'explique comment associer un ficheir à une application
+
+*4 Les accessoires de Windows 10*
+la page 107 t'explique rapidement l'évolution de windows
