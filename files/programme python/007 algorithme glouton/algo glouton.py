@@ -6,28 +6,39 @@ rendu50c=rendu20c=rendu10c=rendu5c=rendu1c=rendu500=rendu200=rendu100=rendu50=re
 #888
 while someincent>0:
     if someincent>1:
+        print(someincent)
         if someincent>2:
+            print(someincent)
             if someincent>5:
+                print(someincent)
                 if someincent>10:
+                    print(someincent)
                     if someincent>20:
+                        print(someincent)
                         if someincent>50:
                            someincent-=50
                            rendu50c+=1
+                           print(someincent)
                     else:
                         someincent-=20
                         rendu20c+=1
+                        print(rendu20c)
                 else:
                     someincent-=10
                     rendu10c+=1
+                    print(rendu10c)
             else:
                 someincent-=5
                 rendu5c+=1
+                print(rendu5c)
         else:
             someincent-=2
             rendu2c+=1
+            print(rendu2c)
     else:
         someincent-=1
         rendu1c+=1
+        print(rendu1c)
                             
 else:
     if rendu50c==2:
@@ -44,16 +55,25 @@ else:
 
 while someineur>0:
     if someineur>1:
+        print(someineur)
         if someineur>2:
+            print(someineur)
             if someineur>5:
+                print(someineur)
                 if someineur>10:
+                    print(someineur)
                     if someineur>20:
+                        print(someineur)
                         if someineur>50:
+                            print(someineur)
                             if someineur>100:
+                                print(someineur)
                                 if someineur>200:
+                                    print(someineur)
                                     if someineur>500:
                                         someineur-=500
                                         rendu500+=1
+                                        print(someineur)
                                     else:
                                         someineur-=200
                                         rendu200+=1
@@ -100,5 +120,6 @@ print("   - {} pièce(s) de 5 centimes".format(rendu5c))
 print("   - {} pièce(s) de 10 centimes".format(rendu10c))
 print("   - {} pièce(s) de 20 centimes".format(rendu20c))
 print("   - {} pièce(s) de 50 centimes".format(rendu50c))
+pause=input("appuyez sur entré pour continuer...")
 
 
