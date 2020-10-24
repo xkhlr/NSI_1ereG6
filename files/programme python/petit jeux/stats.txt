@@ -11,3 +11,5 @@ genre: Fils
 ------------ personnage principal --------------
 nom du personnage principal: bKoqêq
 genre: papa,  Home
+=========== début du jeux ======================
+Chemin d'accès:C:\Users\Henry PC\Documents\001 Github prog Sharing\NSI_1ereG6\files\programme python\petit jeux
