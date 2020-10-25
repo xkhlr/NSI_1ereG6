@@ -1,3 +1,1 @@
-i=0
-while i==0:
-    print("666\n")
+while True: print("666\n")
